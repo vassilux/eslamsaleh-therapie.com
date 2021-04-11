@@ -1,0 +1,57 @@
+{{ "<!-- Testimonial -->" | safeHTML }}
+<section class="htc__testimonial__area">
+  <div class="testimonial__container tes--bg" 
+  style="background-attachment: scroll; background-color: rgba(0, 0, 0, 0); 
+  background-image: url('images/bg/2.jpg'); background-position: center center; 
+  background-repeat: no-repeat; background-size: cover; box-sizing: border-box;" data--theme__overlay="88">
+      <div class="container">
+          <div class="row">
+              <div class="ht__testimonial__activation testimonial--1 testimonial__activation--1 owl-carousel owl-theme">
+                {{ range .Site.Data.testimonials }}
+                    <!-- Start Single Testimonial -->
+                  <div class="testimonial clearfix">
+                    <div class="col-md-7 col-lg-7 col-sm-8 col-xs-12">
+                        <div class="htc__testimonial__content">
+                            <div class="htc__testimonial__inner">
+                                <div class="ht__quote">
+                                    <img src="images/icons/quote.png" alt="">
+                                </div>
+                                {{ with .description }}                                
+                                <div class="ht__test__details">
+                                    <p>{{ . | markdownify }} </p>
+                                    </p> 
+                                </div>
+                                {{ end }}
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="testimonial__clint">
+                           
+                            <div class="testimonial__thumb">
+                                {{ with .img }}  
+                                <img src="{{ . }}" alt="Testimonial Eslam Saleh">
+                                {{ end }}
+                                
+                            </div>
+                            <div class="clint__info">
+                                {{ with .name }}                                  
+                                <h4 class="text--theme"><a href="#">{{ . | markdownify }}</a></h4>
+                                {{ end }}
+                                {{ with .status }} 
+                                <h6>{{ . | markdownify }} </h6>
+                                {{ end }}
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Testimonial -->
+                {{ end }}
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

@@ -1,0 +1,116 @@
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ partial "head.html" . }}
+<body id="page-top" class="index">
+
+<div class="wrapper">
+    <!-- Start Header Style -->
+    <header class="htc__header">
+        <!-- Start Header Top Area -->
+        {{ partial "header.html" . }}
+        
+        <!-- End Header Top Area -->
+        <!-- Start Mainmenu Area -->
+        {{ partial "menu.html" . }}
+        <!-- End Mainmenu Area -->
+        <!-- End Mainmenu Area -->
+    </header>
+    <!-- End Header Style -->
+    <!-- Start Slider Area -->
+    <div class="slider__container">
+        <div class="slider__activation__wrap--2">
+            <!-- Start Single Slide -->
+            <div class="slide slider__fixed--height slide__align--left slider__bg__position" 
+            style="background-image: url(images/slider/bg/1.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                            <div class="slider__inner">
+                                <h1 class="animate_text_style" data-in-effect="fadeInDown" data-out-effect="fadeOutUp">
+                                    <!--Life is not for a moment but it's a combination OF moments. -->                                   
+                                    
+                                {{ with .Site.Params.slogan }}
+                                    {{ . }}                                                                                                                 
+                                {{ end }}
+                                </h1>
+                                
+                                {{ if .Site.Params.appoinment.enable }}
+                                    {{ with .Site.Params.appoinment.btn_text }}
+                                    <div class="slider__btn">
+                                        <a class="htc__btn" href="/prendre-rdv">{{ . }}</a> 
+                                    </div>                                                                               
+                                    {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Single Slide -->
+        </div>
+    </div>
+    <!-- End Slider Area -->
+    <!-- Start Support Area -->
+    {{ if .Site.Params.support.enable }}
+    {{ partial "support.html" . }}
+    {{ end }}
+    
+    <!-- End Support Area -->
+    <!-- Start Try Solve Area -->
+    {{ if .Site.Params.solve.enable }}
+    {{ partial "solve.html" . }}
+    {{ end }}
+    
+    <!-- End Try Solve Area -->
+    <!-- Start Gallery Area -->
+    {{ if .Site.Params.soins.enable }}
+    {{ partial "soins.html" . }}
+    {{ end }}
+    <!-- End Gallery Area -->
+    <!-- Start Gallery Area -->
+    {{ if .Site.Params.gallery.enable }}
+    {{ partial "gallery.html" . }}
+    {{ end }}
+    <!-- End Gallery Area -->
+    <!-- Start Appoinment Area -->
+    {{ if .Site.Params.appoinment.enable }}
+    {{ partial "appoinment.html" . }}
+    {{ end }}
+    <!-- End Appoinment Form -->
+    </section>
+    <!-- End Appoinment Area -->
+    <!-- Start Therapy Provide Area -->
+    {{ if .Site.Params.therapy_provide.enable }}
+    {{ partial "therapy_provide.html" . }}
+    {{ end }}
+    
+    <!-- End Therapy Provide Area -->
+    <!-- Start Testimonial Area -->
+    {{ if .Site.Params.testimonial.enable }}
+    {{ partial "testimonial.html" . }}
+    {{ end }}
+    
+    <!-- End Testimonial Area -->
+    <!-- Start Blog Area --> 
+    {{ if .Site.Params.blog_area.enable }}
+    {{ partial "blog_area.html" . }}
+    {{ end }}
+    <!-- End Blog Area -->
+    <!-- Start Subscribe Area -->
+    {{ if .Site.Params.subscribe.enable }}
+    {{ partial "subscribe.html" . }}
+    {{ end }}
+
+    
+    <!-- End Subscribe Area -->
+    <!-- Start Footer Area -->
+    {{ partial "footer.html" . }}
+    <!-- End Footer Area -->
+</div>
+<!-- Body main wrapper end -->
+
+<!-- Placed js at the end of the document so the pages load faster -->
+{{ partial "js.html" . }}
+
+</body>
+
+</html>

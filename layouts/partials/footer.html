@@ -1,0 +1,75 @@
+{{ $contact := .Site.Params.contact }}
+{{ "<!-- Footer section -->" | safeHTML }}
+<footer class="htc__footer__area footer--3">
+  <div class="footer__container bg__cat--2">               
+      <div class="container">
+          <div class="row">
+              <!-- Start Footer Content -->
+              <div class="footer__wedgit">
+                  <div class="col-md-5 col-lg-4 col-sm-6 col-xs-12">
+                      <div class="footer">
+                          <h2 class="ft__title">Liens utiles</h2>
+                          <div class="ft__link__inner">
+                              <ul class="ft__link__list">
+                                  <li><a href="/about"><span class="ti-angle-double-right"></span>A propos</a></li>
+                                  <li><a href="/contact"><span class="ti-angle-double-right"></span>Contact</a></li>
+                                  
+                              </ul>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-3 col-lg-2 col-lg-offset-1 col-sm-6 col-xs-12 smt--40 xmt--40">
+                      <div class="footer">
+                          <h2 class="ft__title">Contact</h2>
+                          <div class="ft__contact__inner">
+                              <div class="ft__contact">
+                                {{ with $contact.address }}
+                                  <p>{{ . | markdownify }}</p>
+                                {{ end }}
+                                  
+                              </div>
+                              <div class="ft__contact">
+                                  {{ with $contact.phone }}
+                                  <p><a href="#">{{ . | markdownify }}</a></p>
+                                  {{ end }} 
+                              </div>
+                              <div class="ft__contact">
+                                  {{ with $contact.email }}
+                                  <p><a href="#">{{ . | markdownify }}</a></p>                                  
+                                  {{ end }} 
+                                 <!-- {{ with $contact.website }}
+                                  <p><a href="#">{{ . | markdownify }}</a></p>                                  
+                                  {{ end }}-->                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- End Footer Content -->
+          </div>
+      </div>
+  </div>
+  <!-- Start Copyright Area -->
+  <div class="copyright bg__cat--3">
+      <div class="container">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+              <div class="copyright__content">
+                  <div class="copyright__inner">
+                      <p>{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}
+                      </p>
+                  </div>
+                  <ul class="social__icon"> 
+                    {{ range .Site.Params.footer.social }}
+                      <li><a href="{{ .link }}" target="_blank" title="{{ .title }}"><i class="fa {{ .icon }}"></i> {{ .title }}</a></li>
+                    {{ end }}                      
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- End Copyright Area -->
+</footer>
+
+

@@ -1,0 +1,135 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Psychocare || Multi Concept Psychological HTML Template.
+  Template URI: #
+  Description: Psychocare is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-----------------------------------------------------------------------------------*/
+/*
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: droid_serifbold Serif;
+    
+    font-family: 'Playfair Display', serif;
+
+*/
+
+
+
+/*-----------------------------------------
+  Background variation Content
+-------------------------------------------*/
+
+
+.slider__fixed--height {
+    align-items: center;
+    display: flex;
+    height: 780px;
+}
+.slider__inner h1 {
+    color: #303f9f;
+    font-family: Source Sans Pro;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+.slider__btn {
+    margin-top: 27px;
+}
+.slider__btn a.htc__btn {
+    padding: 0 32px;
+}
+.slider__bg__position{
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+
+
+/*----------------------
+  Slider 2
+-------------------------*/
+
+.slider--2 .slider__inner h1 {
+  font-family: "droid_serifbold_italic";
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 70px;
+  text-transform: none;
+}
+
+.cd-intro {
+  max-width: inherit;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+/*----------------------
+  Slider 3
+-------------------------*/
+.slider--3 .slider__inner h1 {
+    color: #fff;
+    font-family: "droid_serifbold_italic";
+    font-size: 60px;
+    line-height: 70px;
+    padding: 0 10%;
+    text-transform: none;
+}
+
+.slide__align--center .slider__inner {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+/*----------------------
+  Animation
+-------------------------*/
+
+.slider--2 .cd-intro {
+    text-align: left;
+}
+.slider--3 .cd-intro {
+    max-width: inherit;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+
+/*---------------------
+  cd-headline
+------------------------*/
+
+.cd-headline.loading-bar .cd-words-wrapper::after {
+  background: #4c8bf5 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transition: width 0.3s ease -0.1s;
+  width: 0;
+  z-index: 2;
+}
+.cd-headline.loading-bar span {
+  display: inline-block;
+  padding: 0;
+}
+.theme-color span.cd-words-wrapper b{
+ color: #4c8bf5;
+}
+.cd-headline.loading-bar .cd-words-wrapper::after {
+  background: #4c8bf5 none repeat scroll 0 0;
+}

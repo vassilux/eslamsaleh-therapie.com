@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+  
+  <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+  {{ "<!-- Stylesheets -->" | safeHTML }}
+
+  {{ with .Site.Params.favicon }}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
+  {{ end }}
+
+  
+  {{ "<![endif]-->" | safeHTML }}
+
+  <!-- Facebook OpenGraph tags -->
+   
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  <meta property="og:description" content="{{ .Site.Params.facebook_description }}" />
+  <meta property="og:url" content="{{ .Site.Params.url }}" />
+  <meta property="og:site_name" content="{{ .Site.Params.facebook_site_name }}" />
+  <meta property="og:image" content="{{ .Site.Params.facebook_logo }}" />
+  <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+
+  <!-- All css files are included here. -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href='{{ "/css/bootstrap.min.css" }}'>
+    <!-- This core.css file contents all plugings css file. -->
+    <link rel="stylesheet" href='{{ "/css/core.css" }}'>
+    <!-- Theme shortcodes/elements style -->
+    <link rel="stylesheet" href='{{ "/css/shortcode/shortcodes.css" }}'>
+    <!-- Theme main style -->
+    <link rel="stylesheet" href='{{ "/css/style.css" }}'>
+    <!-- Responsive css -->
+    <link rel="stylesheet" href='{{ "/css/responsive.css" }}'>
+    <!-- User style -->
+    <link rel="stylesheet" href='{{ "/css/custom.css" }}'>
+
+
+    <!-- Modernizr JS -->
+    <script src='{{ "/js/vendor/modernizr-2.8.3.min.js" }}'></script>
+ 
+  <!-- twiter yags -->
+  <meta name="twitter:text:title" content="{{ .Site.Title }}" />
+  <meta name="twitter:card" content="summary" />
+</head>

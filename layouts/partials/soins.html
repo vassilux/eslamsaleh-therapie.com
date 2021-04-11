@@ -1,0 +1,52 @@
+{{ "<!-- Gallery -->" | safeHTML }}
+
+<section class="htc__gallery__area gallery--1 pb--150 pt--140">
+ 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section__title text-center">
+                    <h2 class="title__line text--theme">Soins </h2>
+                    <p>
+                        Nul ne peut atteindre l'aube sans passer par le chemin de la nuit!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="htc__gallery__wrap clearfix activation__time--1 owl-carousel owl-theme">
+                <!-- Start Single Gallery 
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                    <div class="gallery">
+                        <div class="gallery__thumb">
+                            <a href="#"><img src="/images/portfolio/soins/dragons_celestes.jpg" alt="Dragons Celestes"></a>
+                        </div>
+                        <div class="gallery__hover">
+                            <div class="gallery__hover__info">
+                                <a href="/images/portfolio/big-img/1.jpg" data-lightbox="grportimg" data-title="SOIN DES DRAGONS CÉLESTES">SOIN DES DRAGONS CÉLESTES</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 End Single Gallery -->
+                <!-- Start Single Gallery -->
+                {{ range where .Site.RegularPages "Type"  "soins" }}                
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                    <div class="gallery">
+                        <div class="gallery__thumb">
+                            <a href="{{ .Permalink }}"><img src="{{ .Params.preview }}" alt="{{ .Params.shortTile }}"></a>
+                        </div>
+                        <div class="gallery__hover">
+                            <div class="gallery__hover__info">
+                                <a href="{{ .Permalink }}" data-title="{{ .Params.shortTile }}">{{ .Params.shortTile }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+
+                
+            </div>
+        </div>
+    </div>
+</section>

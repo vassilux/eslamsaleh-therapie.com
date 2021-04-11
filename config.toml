@@ -1,0 +1,86 @@
+baseURL = "https://eslamsaleh-therapie.com/"
+languageCode = "fr-FR"
+title = "Artisane de lumière"
+
+
+
+[menu]
+[[menu.main]]
+    name = "Accueil"
+    url  = "/index.html"
+    weight = 1
+
+[[menu.main]]
+    name = "Prendre RDV"
+    url  = "/prendre-rdv"
+    weight = 1
+
+[[menu.main]]
+    name = "A Propos"
+    url  = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact"
+    weight = 2
+
+[params]
+slogan= "Sur un chemin lumineux vers soi"
+facebook_logo="https://eslamsaleh-therapie.com/images/logo/opengraph_logo.jpg"
+facebook_logo_galleries="https://therapieintuitivehypnose.com/img/opengraph-frtc_galleries_1200_630.jpg"
+facebook_description="Thérapie Intuitive est une thérapie brève. C’est une technique dite « à la carte » car unique pour chaque patient. Elle s’adapte à l’objectif, l’histoire personnelle et aux solutions que l’inconscient du patient délivre."
+facebook_site_name ="Thérapie Intuituve & Hypnose"
+favicon    = "favicon.ico"
+
+[params.support]
+    enable = true
+
+[params.solve]
+    enable = true
+
+[params.soins]
+    enable = true
+
+[params.gallery]
+    enable = true
+
+[params.appoinment]
+    enable = true
+    title = "Prendre rendez-vous"
+    description = "Thérapie Intuitive est une thérapie brève. C’est une technique dite « à la carte » car unique pour chaque patient. Elle s’adapte à l’objectif, l’histoire personnelle et aux solutions que l’inconscient du patient délivre."
+    btn_text = "Prendre  rendez-vous"
+
+[params.therapy_provide]
+    enable = true
+
+[params.blog_area]
+    enable = false
+
+[params.testimonial]
+    enable = true
+
+[params.subscribe]
+    enable = false
+
+[params.contact]
+    enable = true
+    address = "78270 Bonnières-sur-Seine, FRANCE"
+    phone = "+33 6 47 41 84 18"
+    email = "intuitivetherapie@hotmail.com"
+    website = "https://eslamsaleh-therapie.com/"
+
+
+[params.footer]
+    enable = true
+    copyright = "Copyright (c) 2019 - 2020, Eslam Saleh Thérapie."
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/Sunchildstar/"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-instagram"
+      link = "https://www.instagram.com/artisane.cosmictwin/"
+      title = "Instagram"

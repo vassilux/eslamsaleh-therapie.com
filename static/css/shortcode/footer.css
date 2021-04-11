@@ -1,0 +1,190 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Psychocare || Multi Concept Psychological HTML Template.
+  Template URI: #
+  Description: Psychocare is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-------------------------------------------------------------------------------------*/
+/*
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: droid_serifbold Serif;
+    
+    font-family: 'Playfair Display', serif;
+
+*/
+/*-----------------------------
+	Footer Default
+------------------------------*/
+
+
+.footer__container {
+    padding: 70px 0;
+}
+.ft__logo {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+.ft__address h6 {
+    color: #9d9d9d;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.ft__address span,
+.ft__address span a {
+    color: #9d9d9d;
+    display: block;
+    font-family: PT Sans;
+    font-weight: 400;
+    margin-top: 9px;
+}
+.copyright {
+    align-items: center;
+    display: flex;
+    height: 76px;
+}
+.social__icon {
+    display: flex;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.copyright__content {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright__inner p {
+      color: #959595;
+      font-size: 14px;
+}
+.copyright__inner p a{
+      color: #959595;
+}
+.social__icon li a span {
+    color: #959595;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+.social__icon li {
+    padding: 0 16px;
+}
+.social__icon li a:hover span {
+    color: #fff;
+}
+
+.footer--1 .footer__container {
+    padding: 173px 0 70px;
+}
+
+
+
+/*-------------------------
+    Footer Style 2
+---------------------------*/
+
+
+.footer--2 .footer,
+.footer--3 .footer {
+  text-align: left;
+}
+.ft__title {
+    color: #e0e0e0;
+    font-family: "Playfair Display",serif;
+    font-size: 20px;
+    margin-bottom: 29px;
+    text-transform: capitalize;
+}
+.ft__link__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.ft__link__list li a {
+    color: #9d9d9d;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.ft__link__list li a span {
+    color: #9d9d9d;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.ft__link__list li + li {
+    padding-top: 13px;
+}
+.ht__twit {
+    display: flex;
+}
+.ht__twit__icon {
+    padding-right: 12px;
+}
+.ht__twit__icon span {
+    color: #5b5b5b;
+    font-size: 20px;
+}
+.twit__details p {
+    color: #9d9d9d;
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 21%;
+}
+.twit__details p a {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.twit__details span {
+    color: #9d9d9d;
+    display: block;
+    margin-top: 2px;
+}
+.ht__twitter__feed .ht__twit + .ht__twit {
+    margin-top: 26px;
+}
+.ft__contact p {
+    color: #9d9d9d;
+    font-size: 14px;
+    line-height: 22px;
+}
+.ft__contact p a {
+    color: #9d9d9d;
+    font-size: 14px;
+    line-height: 22px;
+}
+.ft__contact__inner .ft__contact + .ft__contact {
+    margin-top: 16px;
+}
+.footer--2 .footer.twitter {
+    left: 50px;
+    position: relative;
+}
+
+
+/*-------------------------
+    Footer Style 3
+---------------------------*/
+
+
+.footer--3 .footer__container {
+  padding: 100px 0 55px;
+}
+.footer--2 .footer__wedgit {
+  padding-top: 34px;
+}
+.footer--3 .ft__link__inner .ft__link__list + .ft__link__list {
+    margin-left: 48px;
+}
+.footer--3 .ft__link__inner {
+    justify-content: baseline;
+}
+.footer--3 .footer.footer__titte__wrrap {
+    position: relative;
+    left: -19px;
+}
+
+

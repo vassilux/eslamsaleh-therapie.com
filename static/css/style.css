@@ -1,0 +1,2575 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Psychocare || Multi Concept Psychological HTML Template.
+  Template URI: #
+  Description: Psychocare is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+
+
+-----------------------------------------------------------------------------------
+  
+  CSS INDEX
+  ===================
+
+  01. Google fonts
+  02. Scroll To Top
+  03. Support Area
+  04. Try Solve Area
+  05. Gallery Area
+  06. Appoinment Area
+  07. Therapy Provide Area
+  08. Testimonial Area
+  09. Blog Area
+  10. Subscribe Area
+  11. Bradcaump Area
+  11. Pagenation Area
+  12. Service Area
+  13. Our Team Area
+  14. Our Success Area
+  15. Blog Details Area
+  16. Contact Area
+  17. Single Service Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  1. Google fonts
+/*----------------------------------------*/
+
+/*
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: droid_serifbold Serif;
+    
+    font-family: 'Playfair Display', serif;
+
+*/
+
+
+/*---------------------------------------
+  02. Scroll To Top
+----------------------------------------*/
+ #scrollUp {
+    border-radius: 2px;
+    bottom: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    font-size: 28px;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 45px;
+    z-index: 200;
+    bottom: 15px;
+}
+
+
+@-webkit-keyframes scroll-ani-to-top {
+  0% {
+    opacity: 0;
+    bottom: 0;
+  }
+  50% {
+    opacity: 1;
+    bottom: 50%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 75%;
+  }
+}
+@-moz-keyframes scroll-ani-to-top {
+  0% {
+    opacity: 0;
+    bottom: 0;
+  }
+  50% {
+    opacity: 1;
+    bottom: 50%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 75%;
+  }
+}
+@keyframes scroll-ani-to-top {
+  0% {
+    opacity: 0;
+    bottom: 0;
+  }
+  50% {
+    opacity: 1;
+    bottom: 50%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 75%;
+  }
+}
+#scrollUp:hover i {
+  animation: 800ms linear 0s normal none infinite running scroll-ani-to-top;
+  height: 100%;
+  left: 0;
+  margin-bottom: -25px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+#scrollUp i {
+  color: #fff;
+}
+ #scrollUp {
+  background: #303f9f none repeat scroll 0 0;
+}
+ 
+
+/*---------------------------------------
+  End Scroll To Top
+----------------------------------------*/
+
+
+/*---------------------------------------
+  03. Support Area
+----------------------------------------*/
+
+.htc__support__area {
+    padding-top: 90px;
+}
+.htc__support__inner h4 {
+    font-family: "droid_serifregular";
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+.htc__support__inner h2 {
+    font-family: "droid_serifbold";
+    font-size: 40px;
+    margin-bottom: 17px;
+    text-transform: capitalize;
+}
+.htc__support__inner h3 {
+    color: #505050;
+    font-family: "droid_serifregular";
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+.htc__support__inner h3 span {
+    font-weight: 'droid_serifbold';
+}
+.htc__support__inner h3 span {
+    color: #505050;
+    font-size: 26px;
+    font-family: "droid_serifbold";
+}
+.htc__support__inner span.cholist {
+    font-family: 'droid_serifregular';
+    text-transform: lowercase;
+    font-size: 16px;
+    color: #505050;
+}
+.htc__spt__dai p {
+    font-family: "droid_serifbold_italic";
+    font-size: 24px;
+}
+.htc__spt__dai p a {
+    color: #303f9f;
+    padding-left: 6px;
+}
+.htc__spt__dai {
+    margin-top: 30px;
+}
+.htc__support__wrap {
+    align-items: center;
+    display: flex;
+}
+.htc__support__details p + p {
+    margin-top: 21px;
+}
+
+
+/*---------------------------------------
+  04. Try Solve Area
+----------------------------------------*/
+
+
+.htc__try__solve__area {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.htc__try__details {
+    border: 6px solid #c0c2d3;
+    padding: 80px 58px 80px 54px;
+    position: relative;
+    z-index: 2;
+}
+.htc__try__solveleft {
+    padding: 120px 150px;
+}
+.htc__try__details h2 {
+    color: #fff;
+    font-family: 'droid_serifbold';
+    font-size: 40px;
+    line-height: 50px;
+}
+.htc__try__details p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.htc__solve__items {
+    margin-left: -15px;
+    padding: 141px 0 141px 157px;
+}
+.htc__try__solveleft {
+    margin-right: -15px;
+}
+.htc__solve__content {
+    display: flex;
+}   
+.htc__solve__items .htc__solve__content + .htc__solve__content {
+    margin-top: 90px;
+}
+.ht__sin__solve h4 {
+    color: #303030;
+    font-size: 22px;
+    margin-bottom: 17px;
+    text-transform: capitalize;
+    font-family: 'droid_serifregular';
+}
+.ht__sin__solve p {
+    color: #606060;
+    line-height: 25px;
+    padding-right: 52%;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve p {
+    padding-right: 51%;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve {
+    margin-left: -196px;
+}
+
+
+/*---------------------------------------
+  05. Gallery Area
+----------------------------------------*/
+
+
+.section__title h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.section__title p {
+    padding: 0 24%;
+}
+.htc__gallery__wrap {
+    margin-top: 30px;
+}
+.gallery {
+    margin-top: 30px;
+    position: relative;
+}
+.gallery__hover {
+    bottom: 0;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: 2;
+}
+.gallery__hover::before {
+    background: #303f9f none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.gallery__hover__info {
+    bottom: 46px;
+    left: 54px;
+    padding: 16px;
+    position: absolute;
+    z-index: 3;
+}
+.gallery__hover__info a {
+    color: #ffffff;
+    font-family: 'droid_serifbold';
+    font-size: 18px;
+}
+
+.gallery:hover .gallery__hover {
+    opacity: 1;
+}
+.gallery__thumb {
+    transition: all 0.5s ease 0s;
+}
+.gallery:hover .gallery__thumb {
+    transform: scale(1.2);
+}
+.gallery {
+    overflow: hidden;
+}
+
+
+/*--------------------------------
+  Gallery Style 2
+----------------------------------*/
+
+.container-fluid .section__title p {
+    padding: 0 33%;
+}
+
+.gallery__thumb a img {
+    width: 100%;
+}
+.gallery__thumb a {
+    display: block;
+}
+
+
+/*--------------------------------
+  Gallery Style 3
+----------------------------------*/
+
+.section__title.text--white p {
+    color: #fff;
+}
+.section__title.text--white h2 {
+    color: #ffffff;
+}
+.section__bg {
+    padding: 70px 0;
+}
+
+.htc__gallery__wrap.gallery--3 {
+    margin-top: 0;
+}
+
+.gallery--3 .gallery {
+    margin-top: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.gallery__hover__info a {
+    position: relative;
+}
+.gallery__hover__info a::before {
+    background: #94a2ff none repeat scroll 0 0;
+    bottom: -44px;
+    content: "";
+    height: 170px;
+    left: -19px;
+    position: absolute;
+    width: 2px;
+}
+.gallery__hover__info a::after {
+    background: #94a2ff none repeat scroll 0 0;
+    bottom: -23px;
+    content: "";
+    height: 2px;
+    left: -45px;
+    position: absolute;
+    width: 270px;
+}
+
+/*-----------------------------
+  Activation Style
+-----------------------------*/
+
+
+.activation__time--1.owl-theme [class*="col-"] {
+    width: 100%;
+}
+.activation__time--1 .owl-nav div {
+    height: 30px;
+    left: -58px;
+    line-height: 21px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+}
+.activation__time--1 .owl-nav div.owl-next {
+    left: auto;
+    right: -61px;
+}
+.activation__time--1.owl-theme .owl-nav [class*="owl-"] {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #e7e7e7;
+    border-radius: 0;
+    color: #dedede;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.activation__time--1.owl-theme .owl-nav [class*="owl-"] {
+    font-size: 14px;
+    transition: 0.4s;
+}
+.activation__time--1.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #303f9f none repeat scroll 0 0;
+    border: 1px solid #303f9f;
+    color: #fff;
+}
+
+.activation__time--1.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+
+/*---------------------------------------
+  06. Appoinment Area
+----------------------------------------*/
+
+.htc__appoinment__inner {
+    text-align: center;
+}
+.htc__appoinment__inner h2 {
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 50px;
+}
+.htc__appoinment__inner p {
+    color: #ffffff;
+    margin-top: 22px;
+    padding: 0 25%;
+}
+.htc__appoinment__form {
+    bottom: 140px;
+    padding: 85px 190px;
+    position: relative;
+}
+.htc__app__box__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.htc__app__box {
+    padding: 0 15px;
+    width: 50%;
+}
+.htc__appoinment__form .htc__app__box__inner + .htc__app__box__inner {
+    margin-top: 23px;
+}
+.htc__app__box__inner.message {
+    margin: 0;
+    width: 100%;
+}
+.htc__app__box.message {
+    padding: 0;
+    width: 100%;
+}
+.htc__app__box input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 5px;
+    padding: 0 10px;
+}
+.htc__app__box span {
+    color: #606060;
+    font-family: PT Sans;
+    font-size: 16px;
+}
+.htc__app__box select {
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 10px;
+}
+.htc__app__box.message textarea {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    margin-top: 10px;
+    min-height: 135px;
+}
+.ht__appoin__btn {
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.htc__appoinment__wrap {
+    padding: 0 100px;
+}
+
+
+/*---------------------------
+  Appoinment 2
+----------------------------*/
+
+
+.htc__visit__inner h2 {
+    font-size: 36px;
+}
+.htc__visit__inner {
+    padding-right: 22%;
+}
+.htc__visit__inner h2 {
+    line-height: 45px;
+    margin-bottom: 13px;
+    padding-right: 51%;
+}
+.htc__visit__time {
+    padding: 77px 0;
+}
+.htc__visit__lst__wrap {
+    display: flex;
+    margin-top: 22px;
+}
+.htc__visit__list li {
+    font-size: 16px;
+}
+.htc__visit__list li + li {
+    padding-top: 8px;
+}
+.htc__visit__lst__wrap ul.htc__visit__list + .htc__visit__list {
+    margin-left: 80px;
+}
+
+/*---------------------------
+  Appoinment 3
+----------------------------*/
+
+.appoinment__style--3 .htc__appoinment__form {
+    bottom: 140px;
+    padding: 56px 65px;
+}
+.appoinment__style--3 .htc__app__box ,
+.appoinment--4 .htc__app__box{
+    width: 100%;
+}
+.appoinment__style--3 .htc__app__box__inner,
+.appoinment--4 .htc__app__box__inner {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+.appoinment__style--3 .htc__app__box,
+.appoinment--4 .htc__app__box {
+    padding: 0;
+    width: 100%;
+}
+.appoinment__style--3 .htc__app__box__inner .htc__app__box + .htc__app__box,
+.appoinment--4 .htc__app__box__inner .htc__app__box + .htc__app__box {
+    margin-top: 30px;
+}
+.appoinment__style--3 .htc__app__box input,
+.appoinment--4 .htc__app__box input  {
+    height: 40px;
+    margin-top: 0;
+    color: #919191;
+}
+.appoinment__style--3 .htc__app__box.message textarea,
+.appoinment--4 .htc__app__box.message textarea {
+    margin-top: 0;
+    min-height: 120px;
+    color: #919191;
+}
+.appoinment__style--3 .htc__app__box.message textarea::-moz-placeholder,
+.appoinment--4 .htc__app__box.message textarea::-moz-placeholder {
+    color: #919191;
+    opacity: 1 !important;
+}
+
+.appoinment__style--3 .htc__app__box input::-moz-placeholder ,
+.appoinment--4 .htc__app__box input::-moz-placeholder {
+    color: #919191 !important;
+    opacity: 1;
+}
+.appoinment__style--3 .htc__appoinment__form h2 {
+    font-family: PT Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.appoinment__style--3 .htc__visit__inner {
+    padding: 110px 22% 110px 10%;
+}
+/*---------------------------
+  Appoinment 4
+----------------------------*/
+
+.appoinment--4 .htc__appoinment__form {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0px;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.1);
+    padding: 70px 92px;
+}
+.htc__visit__time.appoinment--4 {
+    padding: 0;
+}
+.pos--relative {
+    position: relative;
+}
+.appoinment--4 .htc__appoinment__form {
+    bottom: 6%;
+    height: auto;
+    position: absolute;
+    right: 19%;
+    top: 6%;
+    z-index: 3;
+}
+.appoinment--4 .htc__app__box input {
+    width: 381px;
+}
+.appoinment--4 .htc__appoinment__form h2 {
+    color: #606060;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 31px;
+    text-align: center;
+}
+
+.htc__app__box.psy__calendar::before {
+    content: "";
+    font-family: "themify";
+    position: absolute;
+    right: 39px;
+    top: 50%;
+}
+.htc__app__box.psy__calendar {
+    position: relative;
+}
+.appoinment--4 .htc__app__box.psy__calendar::before {
+    right: 27px;
+    top: 19%;
+}
+.date__dropdown.hasDatepicker {
+    padding-right: 39px;
+}
+.appoinment__style--3 .htc__app__box.psy__calendar::before {
+    right: 26px;
+    top: 21%;
+}
+
+
+
+
+/*---------------------------------------
+  07. Therapy Provide Area
+----------------------------------------*/
+
+.htc__therapy__title h2 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.htc__therapy__title p {
+    margin-top: 23px;
+}
+.htc__therapy__title {
+    padding-right: 11%;
+}
+.htc__therapy__provide {
+    padding-bottom: 150px;
+}
+.ht__therapy {
+    display: flex;
+}
+.ht__therapy__icon i {
+    color: #303030;
+    font-size: 25px;
+}
+.ht__therapy__icon {
+    margin-right: 11px;
+}
+.ht__therapy__details h2 {
+    color: #303030;
+    font-family: 'droid_serifregular';
+    font-size: 20px;
+    margin-bottom: 14px;
+    text-transform: capitalize;
+}
+.psy__therapy__wrap {
+    align-items: center;
+    display: flex;
+}
+.ht__therapy__details p {
+    line-height: 22px;
+}
+.single-therapy .col-lg-6 + .col-lg-6 {
+    padding-left: 24px;
+}
+.single-therapy + .single-therapy {
+    margin-top: 73px;
+}
+
+
+
+/*---------------------------------------
+  08. Testimonial Area
+----------------------------------------*/
+
+.testimonial {
+    position: relative;
+    z-index: 2;
+}
+.ht__test__details p {
+    color: #ffffff;
+    font-size: 19px;
+    font-style: italic;
+    line-height: 30px;
+    padding-right: 1%;
+}
+.ht__test__details {
+    margin-top: 19px;
+}
+.htc__testimonial__content {
+    align-items: flex-end;
+    display: flex;
+    height: 494px;
+    padding-bottom: 90px;
+}
+
+.testimonial__clint {
+    position: relative;
+    top: 100px;
+}
+.clint__info h4 {
+    font-size: 22px;
+    font-family: 'droid_serifbold_italic';
+    text-transform: capitalize;
+}
+.clint__info {
+    bottom: 3px;
+    left: -183px;
+    position: absolute;
+    text-align: right;
+}
+.clint__info h6 {
+    color: #606060;
+    font-family: "droid_serifitalic";
+    font-size: 14px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+/* -------------------------
+  Testimonial Style 2
+---------------------------*/
+
+.testimonial--2 .testimonial__clint {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    top: auto;
+}
+.testimonial--2 .testimonial {
+    align-items: center;
+    display: flex;
+}
+.testimonial--2 .htc__testimonial__content {
+    display: block;
+    height: auto;
+    padding-bottom: 0;
+}
+.testimonial--2 .clint__info h4 {
+    color: #fff;
+    transition: 0.3s;
+}
+.testimonial--2 .clint__info h4 a{
+    transition: 0.3s;
+}
+.testimonial--2 .clint__info h4 a:hover {
+    color: #fff;
+}
+.testimonial--2 .clint__info h6 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.testimonial--2 .clint__info {
+    bottom: 63px;
+    left: -40px;
+}
+
+/* -------------------------
+  Testimonial Style 3
+---------------------------*/
+.testimonial--3 .ht__test__details p {
+    padding-right: 19%;
+}
+
+
+.testimonial--3 .ht__test__details {
+    margin-top: 32px;
+}
+.htc__testimonial__content--2 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.clint__info--2 h4 a {
+    color: #ffffff;
+}
+.clint__info--2 h4 {
+    font-size: 22px;
+    font-family: 'droid_serifbold_italic';
+}
+.clint__info--2 h6 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'droid_serifitalic';
+    margin-top: 7px;
+}
+.clint__info--2 {
+    margin-top: 30px;
+}
+
+.testimonial--3 .testimonial {
+    padding-left: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.testimonial--2 .testimonial__activation--1 .owl-dots {
+    bottom: 139px;
+    left: 9px;
+    position: absolute;
+}
+.tes--bg::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 100px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.tes--bg > div{
+    z-index: 3;
+    position: relative;
+}
+
+.testimonial--1 .owl-stage-outer {
+    padding-bottom: 100px;
+}
+.testimonial--1.testimonial__activation--1 .owl-dots {
+    bottom: 135px;
+}
+
+
+/*---------------------------------------
+  09. Blog Area
+----------------------------------------*/
+
+.blog {
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    transition: 0.5s !important;
+}
+.htc__blog__inner {
+    padding: 27px 25px 20px;
+    text-align: center;
+}
+.ht__blog__sub h2 {
+    color: #303030;
+    font-size: 19px;
+    font-family: "droid_serifbold";
+    line-height: 28px;
+}
+.ht__blog__sub span.bl__date {
+    color: #787878;
+    display: block;
+    font-family: "droid_serifbold";
+    font-size: 14px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.ht__blog__sub {
+    position: relative;
+}
+.ht__blog__sub::before {
+    background: rgba(0, 0, 0, 0) url("/images/others/icon/line.png") no-repeat scroll 0 0 / cover ;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 71%;
+}
+.ht__blog__meta {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+}
+.ht__blog__meta li,
+.ht__blog__meta li a {
+    color: #b3b3b3;
+    font-family: 'droid_serifregular';
+    font-size: 12px;
+}
+.ht__blog__meta li a{
+    transition: 0.3s;
+}
+.ht__blog__meta li a:hover{
+    color: #303f9f;
+}
+.blog--page {
+    margin-top: -40px;
+}
+.blog--page .blog {
+    margin-top: 40px;
+}
+.ht__blog__thumb a {
+    display: block;
+}
+.ht__blog__thumb a img {
+    transition: all 0.5s ease 0s;
+}
+.blog:hover .ht__blog__thumb a img {
+    transform: scale(1.2);
+}
+.ht__blog__thumb {
+    overflow: hidden;
+}
+.blog:hover {
+  box-shadow: 3px 3px 40px rgba(0, 0, 0, 0.17);
+}
+
+
+/*---------------------------------------
+  10. Subscribe Area
+----------------------------------------*/
+
+
+
+.htc__subscribe__wrap {
+    padding: 44px 0;
+    text-align: center;
+}
+.htc__subscribe__inner h2 {
+    color: #303f9f;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.htc__subscribe__inner h4 {
+    color: #606060;
+    font-size: 16px;
+    font-family: 'droid_serifregular';
+    line-height: 39px;
+    margin-bottom: 24px;
+}
+
+.news__input input::-moz-placeholder {
+    color: #c2c2c2 !important;
+    opacity: 1;
+}
+.htc__news__inner {
+    position: relative;
+}
+.subscribe__btn {
+    position: absolute;
+    right: 27.5%;
+    top: 0;
+}
+.subscribe__btn input {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+}
+.subscribe__btn input.bst__btn{
+    position: relative;
+}
+.news__input input {
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    color: #c2c2c2;
+    outline: none;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 20px;
+    width: 45%;
+    padding-right: 63px;
+}
+.subscribe--3  .news__input input {
+    color: #aeaeae;
+}
+.subscribe--3 .news__input input::-moz-placeholder {
+    color: #aeaeae !important;
+}
+.subscribe__btn input.bst__btn {
+    background-image: url(/images/icons/send.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    position: relative;
+    text-indent: -999px;
+    z-index: 5;
+    outline: none;
+}
+.subscribe--2 .subscribe__btn input.bst__btn {
+    background-image: url(/images/icons/send-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 87% auto;
+    position: relative;
+    text-indent: -999px;
+    z-index: 5;
+    outline: none;
+}
+.subscribe__btn input {
+    height: 40px;
+    padding: 0 11px;
+    position: relative;
+    right: 25px;
+}
+
+.subscribe--3 .subscribe__btn {
+    position: absolute;
+    right: 18px;
+}
+.subscribe--3 .subscribe__btn input {
+    right: auto;
+}
+
+.subscribe--translate {
+    transform: translateY(50%);
+}
+
+
+/*----------------------------
+  Subscribe Style 2
+------------------------------*/
+
+.subscribe--2 .htc__subscribe__inner h4 {
+    color: #fff;
+}
+.subscribe--2 .htc__subscribe__inner h2 {
+    color: #fff;
+}
+.subscribe--2 .news__input input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #424242;
+    color: #545454;
+}
+.subscribe--2 .news__input input::-moz-placeholder {
+    color: #545454 !important;
+    opacity: 1;
+}
+
+/*----------------------------
+  Subscribe Style 3
+------------------------------*/
+
+.subscribe--3 .news__input input {
+    width: 523px;
+}
+.subscribe--3 .htc__subscribe__inner h2 {
+    font-size: 26px;
+    font-family: 'droid_serifregular';
+    line-height: 36px;
+}
+.subscribe--3 .htc__subscribe__inner h4 {
+    font-size: 14px;
+    font-family: 'droid_serifregular';
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.subscribe--3 .htc__subscribe__wrap {
+    padding: 64px 0;
+}
+
+.subscribe--3 .htc__subscribe__inner {
+    align-items: center;
+    display: flex;
+    padding: 0 150px;
+}
+.subscribe--3 .ht__subscribe__text {
+    padding-right: 55px;
+    position: relative;
+}
+.subscribe--3 .newsletter__form {
+    margin-left: 22px;
+}
+.subscribe--3 .ht__subscribe__text::before {
+    background: #e1e1e1 none repeat scroll 0 0;
+    content: "";
+    height: 90px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+}
+.subscribe--3 .htc__subscribe__wrap {
+    text-align: left;
+}
+
+/*---------------------------------------
+  11. Bradcaump Area
+----------------------------------------*/
+
+
+.ht__bradcaump__wrap {
+    padding: 130px 0;
+    text-align: center;
+}
+.bradcaump__title h2 {
+    color: #ffffff;
+    font-size: 50px;
+}
+.bradcaump__title {
+    position: relative;
+    z-index: 1;
+}
+.phc__breadcrumb {
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+.bradcaump__inner {
+    text-align: right;
+}
+.bradcaump__inner a {
+    color: #afafaf;
+    font-family: 'droid_serifregular';
+    font-size: 18px;
+    transition: all 0.4s ease 0s;
+}
+.breadcrumb-item.active {
+    color: #303f9f;
+    font-family: "droid_serifregular";
+    font-size: 18px;
+}
+.brd-separetor {
+    padding: 0 6px;
+}
+.brd-separetor span {
+    color: #afafaf;
+    font-size: 13px;
+}
+.breadcrumb-item:hover {
+    color: #303f9f;
+}
+
+
+/*---------------------------------------
+  11. Pagenation Area
+----------------------------------------*/
+
+
+.htc__pagenation {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.23);
+    display: inline-block;
+    margin-top: 60px;
+}
+.htc__pagenation li {
+    display: inline-block;
+    padding: 0 18px;
+}
+.htc__pagenation li.page {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding: 0 30px;
+}
+.htc__pagenation li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+}
+.htc__pagenation li.page a {
+    color: #303030;
+    font-family: "droid_serifregular";
+    font-size: 16px;
+}
+.htc__pagenation li a span {
+    color: #303030;
+    font-size: 12px;
+}
+
+
+/*---------------------------------------
+  12. Service Area
+----------------------------------------*/
+
+
+
+.sction__title--2 h4 {
+    font-size: 30px;
+    font-family: 'droid_serifregular';
+}
+.sction__title--2 h4 span {
+    font-size: 32px;
+    font-family: 'droid_serifbold';
+    text-transform: capitalize;
+}
+.sction__title--2 h2 {
+    font-size: 36px;
+    font-family: 'droid_serifbold';
+    margin-top: 8px;
+}
+.htc__service__wrap {
+    margin-top: 85px;
+}
+.service {
+    background: #fafafa none repeat scroll 0 0;
+    padding: 50px 40px;
+}
+.service__details h2 {
+    color: #303030;
+    font-size: 22px;
+    font-family: 'droid_serifregular';
+    margin-top: 25px;
+}
+.service__details p {
+    line-height: 22px;
+    margin-top: 14px;
+}
+.sction__title--2.text-left {
+    text-align: left;
+}
+.feature--service .htc__service__wrap {
+    margin-top: 150px;
+}
+.service__icon img {
+    max-height: 72px;
+}
+/*-----------------------------
+  Service Style 2
+--------------------------------*/
+
+
+.service--2 .service {
+    background: transparent none repeat scroll 0 0;
+    padding: 0;
+}
+.service--2 .htc__service__list {
+    display: flex;
+}
+.service--2 .htc__service__list + .htc__service__list {
+    margin-top: 30px;
+}
+.service--2 .service .ser__list__num {
+    color: #e0e2f1;
+    font-family: 'droid_serifregular';
+    font-size: 24px;
+}
+.service--2 .service h2 {
+    color: #303030;
+    font-size: 22px;
+    font-family: 'droid_serifregular';
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.service--2 .service p {
+    line-height: 22px;
+    margin-top: 16px;
+    padding-right: 18%;
+}
+.htc__service__wrap.service--2 {
+    margin-top: 75px;
+}
+
+.video__wrap {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.video__inner {
+    left: 50%;
+    padding-left: 36px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.video__image{
+    position: relative;
+}
+
+/*Service 2*/
+.section__title__left h2 {
+    font-size: 36px;
+}
+.section__title__left p {
+    margin-top: 14px;
+    width: 53%;
+}
+/*-----------------------------
+  Service Style 3
+--------------------------------*/
+
+
+
+.service--3 .service {
+    background: transparent none repeat scroll 0 0;
+    padding: 0;
+}
+.service--3 .service__details h2 {
+    margin-top: 28px;
+}
+.service--3 .ht__service__content {
+    display: flex;
+    justify-content: space-between;
+}
+.htc__service__wrap .ht__service__content + .ht__service__content {
+    margin-top: 50px;
+}
+.service--3 {
+    padding-bottom: 90px;
+    position: relative;
+}
+.service--3 .service__details p {
+    padding-right: 24%;
+}
+.htc__service__position--img {
+    bottom: 0;
+    left: 13%;
+    position: absolute;
+}
+
+
+/*-----------------------------
+  Service Style 4
+--------------------------------*/
+
+
+.service--4 .service p {
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.service--4 .service {
+    border: 1px solid #f5f5f5;
+    transition: all 0.3s ease 0s;
+}
+.service--4 .htc__service__list .service + .service {
+    margin-left: 36px;
+}
+.service--4 .service {
+    padding: 28px 21px;
+}
+.htc__service__wrap.service--4 {
+    align-items: center;
+    display: flex;
+}
+.service--4 .service:hover {
+    border: 1px solid transparent;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.1);
+}
+
+/*-----------------------
+  Exclusive Service
+------------------------*/
+
+.exclusive__service .htc__service__wrap {
+    margin-top: 0;
+}
+.htc__exclu__service h4 {
+    font-size: 26px;
+    font-family: 'droid_serifregular';
+}
+.htc__exclu__service h4 span {
+    font-family: 'droid_serifbold';
+}
+.htc__exclu__service h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 12px;
+}
+.ht__exclu__details {
+    margin-top: 24px;
+}
+.ht__exclu__details p + p {
+    margin-top: 20px;
+}
+.exclusive__service--inner {
+    align-items: center;
+    display: flex;
+}
+.ht__exclu__details p {
+    padding-right: 18%;
+}
+
+/*-----------------------
+  Service Style 5
+------------------------*/
+
+
+.service__bg .section__title h2 {
+    color: #ffffff;
+    font-size: 36px;
+}
+.service__bg .section__title p {
+    color: #ffffff;
+    padding: 0 24%;
+}
+.service__bg {
+    padding: 80px 0;
+}
+.htc__service__wrap.service--5 {
+    margin-top: 0;
+    padding: 100px 0;
+}
+.about__service .htc__service__wrap {
+    margin-top: 0;
+}
+.about__service .service {
+    background: #fafafa none repeat scroll 0 0;
+    padding: 69px 0 66px;
+}
+.ht__therapy__wrap {
+    align-items: center;
+    display: flex;
+}
+.about__service .service__details p {
+    padding-right: 20%;
+}
+.service.service__align--center {
+    left: 45px;
+    position: relative;
+}
+.service.service__align--right {
+    position: relative;
+    right: -83px;
+}
+
+
+
+/*---------------------------------------
+  13. Our Team Area
+----------------------------------------*/
+
+.team {
+    margin-top: 40px;
+    position: relative;
+}
+.htc__team__thumb a {
+    display: block;
+    position: relative;
+}
+.htc__team__thumb a img {
+    width: 100%;
+}
+.htc__team__thumb > a::before {
+    background: #303f9f none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.team:hover .htc__team__thumb a::before {
+    opacity: 0.92;
+}
+.htc__team__thumb {
+    position: relative;
+}
+.team__hover__action {
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: 3;
+}
+.team__hover__action h2 a {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.team__hover__action h6 {
+    color: #fff;
+    font-family: PT Sans;
+    font-size: 16px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.team:hover .team__hover__action {
+    opacity: 1; 
+}
+.team__social__service {
+    background: #efefef none repeat scroll 0 0;
+    left: 0;
+    opacity: 0;
+    padding: 31px 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+}
+.htc__team__info {
+    background: #efefef none repeat scroll 0 0;
+    padding: 24px 0;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+}
+.htc__team__info h2 {
+    color: #303030;
+    font-size: 18px;
+    font-family: 'droid_serifregular';
+    text-transform: capitalize;
+}
+.htc__team__info h6 {
+    color: #606060;
+    font-family: PT Sans;
+    font-size: 16px;
+    margin-top: 7px;
+    text-transform: capitalize;
+}
+.htc__team__details {
+    position: relative;
+}
+.tm__social__icon {
+    display: flex;
+    justify-content: center;
+}
+.tm__social__icon li {
+    margin: 0 10px;
+}
+.tm__social__icon li a {
+    border: 1px solid #cfcfcf;
+    border-radius: 100%;
+    color: #bcbcbc;
+    display: block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 30px;
+    transition: all 0.4s ease 0s;
+    width: 32px;
+}
+.tm__social__icon li a:hover {
+    background: #303f9f none repeat scroll 0 0;
+    border: 1px solid #303f9f;
+    color: #fff;
+}
+.team:hover .team__social__service {
+    opacity: 1;
+}
+.team:hover .htc__team__info {
+    opacity: 0;
+}
+
+/*----------------------------
+  Team Style 2
+-----------------------------*/
+
+.team--2 .team:hover .htc__team__info {
+    opacity: 1;
+}
+.team--2 .team__hover__action {
+    padding: 10px 24px 10px 58px;
+    width: 100%;
+}
+.team--2 .tm__social__icon li {
+    margin: 0 8px;
+}
+.team--2 .tm__social__icon li a:hover {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+}
+.team--2 .team__hover__action p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.team--2 .team__hover__action::before {
+    background: #f5f5f5 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 14%;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+.team--2 .tm__social__icon li a:hover span {
+    color: #3e4ca5;
+}
+.team--2 .tm__social__icon li a span {
+    transition: all 0.3s ease 0s;
+}
+.team--2 .tm__social__icon li:first-child {
+    margin-left: 0;
+}
+
+/*---------------------------------------
+  14. Our Success Area
+----------------------------------------*/
+
+.ht__success__inner {
+    margin-left: -15px;
+    padding-left: 60px;
+    padding-right: 16.5%;
+    margin-right: -15px;
+}
+.ht__success__thumb {
+    margin-right: -15px;
+}
+.ht__single__success {
+    align-items: center;
+    display: flex;
+}
+.ht__success__thumb {
+    margin-left: -15px;
+}
+.ht__success__content h2 {
+    color: #303f9f;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.ht__success__content p {
+    color: #606060;
+    font-size: 19px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.htc__success__activation,
+.testimonial__activation--1{
+    position: relative;
+}
+.testimonial--2 .testimonial__activation--1 {
+    margin-top: -38px;
+}
+.htc__success__activation .owl-dots {
+    bottom: 55px;
+    left: 46.2%;
+    position: absolute;
+}
+.htc__success__activation.owl-theme .owl-dots .owl-dot span,
+.testimonial__activation--1.owl-theme .owl-dots .owl-dot span {
+    backface-visibility: visible;
+    background: #b7b7b7 none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    height: 5px;
+    margin: 0 6px;
+    transition: opacity 0.2s ease 0s;
+    width: 20px;
+}
+.htc__success__activation.owl-theme .owl-dots .owl-dot.active span{
+    background: #6e6e6e none repeat scroll 0 0;
+    width: 35px;
+}
+.testimonial__activation--1.owl-theme .owl-dots .owl-dot.active span {
+    background: #fff none repeat scroll 0 0;
+    width: 35px;
+}
+.htc__success__activation.owl-theme .owl-dots .owl-dot:hover span {
+    background: #6e6e6e none repeat scroll 0 0;
+}
+.testimonial__activation--1.owl-theme .owl-dots .owl-dot:hover span {
+    background: #fff none repeat scroll 0 0;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0;
+}
+.testimonial__activation--1 .owl-dots {
+    bottom: 34px;
+    left: 0;
+    position: absolute;
+}
+.testimonial--1.testimonial__activation--1 .owl-dots {
+    left: 10px;
+}
+.testimonial--3 .testimonial__activation--1 .owl-dots {
+    display: none;
+}
+
+/*---------------------------------------
+  15. Blog Details Area
+----------------------------------------*/
+
+
+.psy__bl__dtl blockquote {
+    background: #fafafa none repeat scroll 0 0;
+    border-left: 5px solid transparent;
+    color: #909090;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+    margin: 50px 0 50px 65px;
+    padding: 43px 70px 43px 68px;
+    position: relative;
+    z-index: 2;
+}
+
+.psy__bl__dtl blockquote::before {
+    background-image: url(/images/icons/quote-2.png);
+    background-position: center center;
+    background-size: cover;
+    color: #eeeeee;
+    content: "";
+    font-size: 24px;
+    height: 35px;
+    left: 56px;
+    position: absolute;
+    top: 27px;
+    width: 43px;
+    z-index: -1;
+}
+.psy__blog__details h2 {
+    color: #303030;
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+.psy__blog__details span {
+    color: #787878;
+    display: block;
+    font-family: "droid_serifbold";
+    font-size: 16px;
+}
+.psy__bl__dtl {
+    margin-top: 20px;
+}
+.psy__bl__dtl p {
+    color: #909090;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 17px;
+}
+.psy__bl__dtl p + p {
+    margin-top: 30px;
+}
+.psy__blog__meta {
+    border-top: 1px solid #e1e1e1;
+    display: flex;
+    margin-top: 43px;
+    padding-top: 20px;
+}
+.psy__blog__meta li a {
+    color: #b3b3b3;
+    font-family: 'droid_serifregular';
+    font-size: 15px;
+}
+.psy__blog__meta li + li {
+    margin-left: 100px;
+}
+h2.psy__blog__title {
+    color: #303030;
+    font-size: 20px;
+    margin: 0 0 47px;
+    text-transform: capitalize;
+}
+.psy__blog__comment__wrapper {
+    margin-top: 71px;
+}
+.comment {
+    align-items: center;
+    background: #fafafa none repeat scroll 0 0;
+    display: flex;
+}
+.comment__thumb {
+    min-width: 134px;
+}
+.comment__thumb img {
+    width: 100%;
+}
+.comment.reply {
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.comment__inner {
+    padding-left: 40px;
+    padding-right: 13px;
+}
+.comment__info {
+    display: flex;
+    margin-bottom: 7px;
+}
+.comment__info span {
+    color: #909090;
+    font-size: 14px;
+    font-family: 'droid_serifitalic';
+}
+.comment__info span + span {
+    padding-left: 14px;
+}
+.comment__details p {
+    color: #606060;
+    font-size: 15px;
+    line-height: 22px;
+}
+.cmnt__reply {
+    display: flex;
+    margin-top: 4px;
+}
+.cmnt__reply span a {
+    color: #909090;
+    font-family: 'droid_serifitalic';
+    font-size: 13px;
+}
+.cmnt__reply span + span {
+    padding-left: 27px;
+}
+.comment__info span a {
+    color: #909090;
+    font-size: 14px;
+    font-family: 'droid_serifitalic';
+}
+.comment__form {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.comment__box {
+    margin: 0 15px;
+    width: 50%;
+}
+.comment__box input {
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 20px;
+}
+.comment__box span {
+    color: #606060;
+    display: block;
+    font-family: PT Sans;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.psy__comment__form__inner .comment__form + .comment__form {
+    margin-top: 23px;
+}
+.comment__send__btn {
+    margin-top: 30px;
+}
+.comment__send__btn a.htc__btn {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+}
+
+/*-----------------------
+  Side Bar
+-------------------------*/
+
+.title__line--2 {
+    align-items: center;
+    background: #fafafa none repeat scroll 0 0;
+    display: flex;
+    font-size: 22px;
+    height: 60px;
+    margin-bottom: 50px;
+    padding: 0 40px;
+    text-transform: capitalize;
+}
+.psy__cat__list li {
+    color: #909090;
+    font-family: "droid_serifregular";
+    font-size: 16px;
+}
+.psy__cat__list li + li {
+    margin-top: 22px;
+}
+.psy__search__field {
+    margin-top: 57px;
+}
+.psy__search__field {
+    position: relative;
+}
+.psy__search__field input {
+    border: 1px solid #e1e1e1;
+    color: #afafaf;
+    font-size: 14px;
+    height: 45px;
+    padding: 0 50px 0 20px;
+}
+.psy__search__field input::-moz-placeholder {
+    color: #afafaf !important;
+}
+.psy__search__field a {
+    position: absolute;
+    right: 25px;
+    top: 56%;
+    transform: translateY(-50%);
+}
+.psy__search__field a span {
+    color: #afafaf;
+    font-size: 18px;
+}
+.psy__visit__time {
+    margin-top: 46px;
+}
+.psy__visit__time p {
+    color: #909090;
+    font-family: "droid_serifregular";
+    font-size: 16px;
+    padding-left: 38px;
+    padding-right: 57px;
+}
+.psy__visit__time p + p {
+    margin-top: 27px;
+}
+.psy__bl__shape {
+    margin-top: 54px;
+}
+.psy__tag__area {
+    margin-top: 57px;
+}
+.psy__tag__list {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.psy__tag__list li a {
+    border: 1px solid #e1e1e1;
+    color: #909090;
+    display: flex;
+    font-family: "droid_serifregular";
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 18px;
+    transition: all 0.4s ease 0s;
+}
+.psy__tag__list li {
+    margin: 0 5px 15px;
+}
+.psy__tag__list li a:hover {
+    background: #303f9f none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.psy__comment__form {
+    margin-top: 75px;
+}
+.comment__form.message textarea {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+}
+.comment__form.message .comment__box {
+    width: 100%;
+}
+.comment__form.message textarea {
+    min-height: 155px;
+}
+
+/*--------------------------
+  Blog One Column
+---------------------------*/
+
+.bl__details h2 {
+    color: #303030;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.bl__details {
+    padding: 35px 83px 35px 34px;
+}
+.single__md__blog {
+    background: #fafafa none repeat scroll 0 0;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease 0s;
+}
+.bl__details .ht__blog__meta {
+    justify-content: inherit;
+}
+.bl__details .ht__blog__meta li + li {
+    margin-left: 83px;
+}
+.bl__details .ht__blog__meta {
+    border-top: 1px solid #e1e1e1;
+    margin-top: 25px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.single__md__blog:hover {
+    box-shadow: 7px 10px 13px rgba(0, 0, 0, 0.23);
+}
+.blog-one-column--2 .bl__details p {
+    color: #909090;
+    margin-top: 20px;
+}
+.blog-one-column--2 .bl__details {
+    padding: 35px 30px 35px 34px;
+}
+.psy__cat__list {
+    padding-left: 40px;
+}
+.bl__details span {
+    color: #787878;
+    font-size: 16px;
+    font-family: 'droid_serifbold';
+}
+
+/*-----------------------
+  Blog Right Sidebar
+-------------------------*/
+
+.blog-right-sidebar .ht__blog__meta {
+    padding-left: 0;
+}
+.blog-right-sidebar .ht__blog__sub {
+    text-align: left;
+}
+.blog-right-sidebar .ht__blog__sub::before {
+    left: 0;
+    transform: translateX(0);
+}
+.blog-right-sidebar .ht__blog__meta {
+    justify-content: inherit;
+    padding-top: 16px;
+}
+.blog-right-sidebar .ht__blog__meta li + li {
+    margin-left: 35px;
+}
+
+/*---------------------------------------
+  16. Contact Area
+----------------------------------------*/
+
+#googleMap{
+    width: 100%;
+    height: 770px;
+}
+
+.address {
+    background: #fafafa none repeat scroll 0 0;
+    padding: 60px 82px;
+    text-align: center;
+}
+.address__icon i {
+    border: 1px solid #757575;
+    border-radius: 100%;
+    color: #606060;
+    font-size: 30px;
+    height: 46px;
+    line-height: 46px;
+    transition: all 0.4s ease 0s;
+    width: 46px;
+}
+.address__details {
+    margin-top: 23px;
+}
+.address:hover .address__icon i {
+    background: #303f9f none repeat scroll 0 0;
+    border: 1px solid #303f9f;
+    color: #fff;
+}
+.contact__addres__wrapper {
+    position: relative;
+    transform: translateY(67px);
+    z-index: 4;
+}
+.htc__contact__form__wrap {
+    padding: 0 100px;
+}
+.contact-form-wrap {
+    background: #fafafa none repeat scroll 0 0;
+    padding: 75px 190px;
+}
+.contact-box.name_email {
+    display: flex;
+}
+
+.contact-box span {
+    color: #606060;
+    display: block;
+    font-family: pt sans;
+    font-size: 16px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+.contact-box input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 20px;
+    width: 100%;
+    outline: none;
+}
+.contact-box.name_email .contact-box {
+    margin: 0 13px;
+    width: 50%;
+}
+.contact-box.name_email {
+    justify-content: space-between;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+.single-contact-form + .single-contact-form {
+    margin-top: 26px;
+}
+.contact-box.message textarea {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    min-height: 133px;
+}
+.contact-btn {
+    margin-top: 25px;
+    text-align: center;
+}
+.contact-btn .htc__btn {
+    border: 0 none;
+    font-family: PT Sans;
+    height: 42px;
+    line-height: 42px;
+}
+.htc__contact__form__wrap {
+    position: relative;
+    transform: translateY(-70px);
+    z-index: 2;
+}
+.contact-btn .htc__btn {
+    text-transform: uppercase;
+}
+.ct__title{
+    text-align: center;
+    color: #303f9f;
+    font-size: 24px;
+    margin-bottom: 64px;
+}
+
+/*Contact Style 2 */
+
+.contact--2 .htc__contact__form__wrap {
+    transform: translateY(0px);
+}
+.contact--2 .contact__addres__wrapper {
+    transform: translateY(0px);
+}
+
+/*--------------------------
+  Animation
+-------------------------------*/
+
+.testimonial__activation--1 .htc__testimonial__content,
+.testimonial__activation--1 .animation__from--left {
+    animation-delay: 0.4s;
+    animation-duration: 1s;
+}
+.testimonial__activation--1 .testimonial__clint,
+.testimonial__activation--1 .animation__from--right {
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+.testimonial__activation--1 .htc__testimonial__content,
+.testimonial__activation--1 .testimonial__clint,
+.testimonial__activation--1 .animation__from--left,
+.testimonial__activation--1 .animation__from--right{
+    animation-fill-mode: both;
+    animation-name: fadeOut;
+}
+.testimonial__activation--1 .owl-item.active .htc__testimonial__content,
+.testimonial__activation--1 .owl-item.active .animation__from--left{
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft
+}
+.testimonial__activation--1 .owl-item.active .testimonial__clint,
+.testimonial__activation--1 .owl-item.active .animation__from--right{
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight
+}
+.testimonial__activation--1.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
+
+.owl-carousel {
+    display: block;
+}
+
+/*----------------------
+  Others Css
+------------------------*/
+
+.ht__blog__thumb a img {
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.htc__service__wrap.service--3 {
+    align-items: center;
+    display: flex;
+}
+.blog__sidebar--list{
+    margin-top: -30px;
+}
+
+.htc__try__solve__area {
+  position: relative;
+}
+
+.home--try {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 41.5%;
+}
+
+/*---------------------------------------
+  17. Single Service Area
+----------------------------------------*/
+
+
+.psy__single__service {
+    display: flex;
+}
+.psy__ser__thumb img {
+    margin-right: 40px;
+    min-width: 370px;
+}
+.psy__ser__inner h2 {
+    color: #303f9f;
+    font-size: 30px;
+    line-height: 22px;
+    margin-bottom: 29px;
+    text-transform: capitalize;
+}
+.psy__ser__details p {
+    color: #606060;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 8%;
+}
+.psy__ser__details p + p {
+    margin-top: 10px;
+}
+.psy__service__list {
+    margin-top: 14px;
+}
+.psy__service__list li a {
+    color: #606060;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 22%;
+}
+.psy__service__list li i {
+    color: #303030;
+    font-size: 16px;
+    line-height: 29px;
+    padding-right: 7px;
+}
+.psy__service__list li + li {
+    margin-top: 15px;
+}
+.psy__single__service + .psy__single__service {
+    margin-top: 70px;
+}
+.psy__single__service.service--left .psy__ser__thumb {
+    padding-right: 0;
+}
+.psy__single__service.service--left .psy__ser__inner {
+    padding-right: 40px;
+}
+.psy__single__service.service--left .psy__ser__details p {
+    padding-right: 10%;
+}
+.form-output p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.form-output {
+    text-align: center;
+}
+.psy__service__list li {
+    display: flex;
+}
+
+
+/*Pagination*/
+
+
+.psy__nextpre--btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.psy__nextpre--btn li a {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    color: #969696;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.psy__nextpre--btn li a i {
+    color: #969696;
+    font-size: 18px;
+    padding-right: 10px;
+    transition: all 0.3s ease 0s;
+}
+.psy__nextpre--btn li.next a i {
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.psy__nextpre--btn li a:hover {
+    background: #303f9f none repeat scroll 0 0;
+    border: 1px solid #303f9f;
+    color: #fff;
+}
+.psy__nextpre--btn li a:hover i {
+    color: #fff;
+}
+.service--left .psy__ser__thumb img {
+  margin-right: 0;
+}
+
+/*--------------------------------
+  Calender Style
+--------------------------------*/
+
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #d0d4d9;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #d0d4d9;
+    color: #4d5155;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+.ui-widget-header {
+    background: #303f9f none repeat scroll 0 0;
+    border: 1px solid #303f9f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.ui-datepicker {
+    padding: 0;
+    width: 282px;
+}
+.ui-datepicker .ui-datepicker-header {
+    padding: 5px 0;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+.ui-datepicker table .ui-datepicker-today a {
+  border: 1px solid #303f9f;
+  color: #303f9f;
+}
+.ui-datepicker table {
+  margin: 0;
+}
+/*New Code*/
+
+.exclusive__service .htc__service__wrap {
+    padding-left: 31px;
+}
+.psy__single__service__container {
+    padding-right: 38px;
+}
+.blog__thumb a img {
+    width: 100%;
+}
+
+.blog__separator--right {
+    margin-right: -30px;
+}
+.blog__separator--left {
+    margin-left: 70px;
+}
+.team--page .team {
+  margin-top: 60px;
+  position: relative;
+}
+.team--page .htc__team__wrap{
+    margin-top: -60px;
+}
+
+/*------------------------------
+    Team Details
+--------------------------------*/
+
+
+
+
+.fs-skill-container .single-skill + .single-skill {
+    margin-top: 3px;
+}
+.single-skill p {
+    color: #303030;
+    font-family: "droid_serifregular";
+    font-size: 14px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+.single-skill {
+    overflow: hidden;
+}
+.progress {
+    background-color: #dddddd;
+    border-radius: 0;
+    box-shadow: none;
+    height: 12px;
+    margin-bottom: 18px;
+    overflow: visible;
+}
+.progress-bar {
+    background-color: #303f9f;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 10px;
+    position: relative;
+}
+.pen-lable {
+    color: #303030;
+    font-family: "droid_serifregular";
+    font-size: 14px;
+    position: absolute;
+    right: -11px;
+    top: -23px;
+}
+.row.team__align__center {
+    align-items: center;
+    display: flex;
+}
+.team__details__inner h2 {
+    color: #303030;
+    font-family: "droid_serifregular";
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.team__details__inner span {
+    color: #606060;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 23px;
+    margin-top: 4px;
+    text-transform: capitalize;
+}
+.team__details__inner p {
+    color: #606060;
+}
+.team__details__inner p + p {
+    margin-top: 20px;
+}
+.team__social__net {
+    display: flex;
+    margin-top: 40px;
+}
+.team__social__net li + li {
+    margin-left: 16px;
+}
+.team__social__net li a {
+    background: #3b5998 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 35px;
+    line-height: 34px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+}
+.team__social__net li.bg--twit a {
+    background: #00aced none repeat scroll 0 0;
+}
+.team__social__net li.bg--googl a {
+    background: #007bb6 none repeat scroll 0 0;
+}
+.team__social__net li.bg--link a {
+    background: #d34836 none repeat scroll 0 0;
+}
+.team__details__content {
+    margin-left: -29px;
+}
+.team__history {
+    padding-left: 26px;
+}
+.team__contact__info {
+    margin-top: 35px;
+}
+.team__contact__info p + p {
+    margin-top: 12px;
+}
+.team__contact__info p {
+    color: #303030;
+    font-family: "droid_serifregular";
+    font-size: 18px;
+}
+.team__contact__info p a {
+    color: #656565;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+.team__social__net li a:hover {
+    background: #000 none repeat scroll 0 0;
+}
+.team__title {
+    color: #303030;
+    font-family: "droid_serifregular";
+    font-size: 24px;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+}
+.team__expre__details p {
+    padding-right: 31px;
+}
+.team__expre__details p + p {
+    margin-top: 21px;
+}
+.team__progress__bar {
+    margin-top: 41px;
+    padding-right: 34%;
+}
+.his__dtl p {
+    padding-right: 6px;
+}
+.his__dtl {
+    margin-bottom: 29px;
+}
+.single__his h6 {
+    color: #303030;
+    font-family: "droid_serifregular";
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+.single__his h6 span {
+    color: #303030;
+    font-family: "droid_serifbold";
+    font-size: 18px;
+    padding-right: 3px;
+}
+.single__his p {
+    padding-right: 28%;
+}
+.history__inner .single__his + .single__his {
+    margin-top: 25px;
+}
+
+
+

@@ -1,0 +1,1220 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Psychocare || Multi Concept Psychological HTML Template.
+  Template URI: #
+  Description: Psychocare is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+@media (min-width: 1920px){
+
+
+}
+
+
+
+
+/* Large screen desktop */
+@media (min-width: 1600px) and (max-width: 1919px){
+
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1500px){
+
+
+
+.appoinment--4 .htc__appoinment__form {
+    right: 6%;
+}
+.htc__service__position--img {
+  left: 2%;
+}
+.htc__try__details {
+  padding: 80px 40px 80px 40px;
+}
+.htc__try__solveleft {
+  padding: 70px 32px;
+}
+.htc__solve__items {
+    padding: 116px 50px 117px 100px;
+}
+.htc__solve__items .htc__solve__content + .htc__solve__content {
+  margin-top: 40px;
+}
+.ht__sin__solve p {
+  line-height: 24px;
+  padding-right: 12%;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve p {
+    padding-right: 17px;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve {
+    margin-left: 26px;
+}
+.exclusive__service .htc__service__wrap {
+  padding-left: 0px;
+}
+.slider__fixed--height {
+  height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1365px){
+
+.htc__service__position--img {
+  left: -5%;
+}
+.appoinment--4 .htc__appoinment__form {
+  right: 6%;
+}
+
+
+}
+
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+.slider__inner h1 {
+    font-size: 44px;
+}
+.main__menu > li > a {
+    padding: 0 13px;
+}
+.htc__try__details {
+    padding: 80px 17px 80px 33px;
+}
+.htc__try__solveleft {
+    padding: 69px 27px;
+}
+.ht__sin__solve p {
+    padding-right: 10%;
+}
+.htc__solve__items {
+    padding: 100px 11px 100px 50px;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve {
+    margin-left: 0;
+}
+.activation__time--1 .owl-nav div {
+  left: -7px;
+}
+.activation__time--1 .owl-nav div.owl-next {
+  right: -7px;
+}
+.htc__appoinment__form {
+    padding: 85px 66px;
+}
+.twit__details p {
+  padding-right: 6%;
+}
+.testimonial--1 .owl-stage-outer {
+    padding-bottom: 30px;
+}
+.htc__testimonial__content {
+    padding-bottom: 156px;
+}
+.htc__blog__inner {
+    padding: 27px 13px 20px;
+}
+.service__details h2 {
+    font-size: 18px;
+}
+.appoinment--4 .htc__appoinment__form {
+    right: 7%;
+}
+.appoinment--4 .htc__appoinment__form {
+    padding: 70px 44px;
+}
+.htc__visit__inner h2 {
+    padding-right: 30%;
+}
+.testimonial--2 .clint__info {
+    left: -112px;
+}
+.htc__success__activation .owl-dots {
+    bottom: 21px;
+    left: 48%;
+}
+.container-fluid .section__title p {
+    padding: 0 27%;
+}
+.htc__service__position--img {
+    bottom: 0;
+    left: -4%;
+    position: absolute;
+}
+.appoinment__style--3 .htc__appoinment__form {
+    bottom: 63px;
+}
+.service--4 .service {
+    padding: 28px 20px;
+}
+.subscribe--3 .htc__subscribe__inner {
+    padding: 0 41px;
+}
+.gallery__hover__info {
+  bottom: 30px;
+  left: 16px;
+  padding: 7px;
+}
+.gallery__hover__info a::before {
+  bottom: -31px;
+  height: 136px;
+  left: -10px;
+}
+.gallery__hover__info a::after {
+  bottom: -13px;
+  left: -19px;
+  width: 194px;
+}
+.team--2 .team__hover__action {
+    padding: 10px 15px 10px 14px;
+}
+.team--2 .team__hover__action::before {
+    display: none;
+}
+.psy__tag__list li a {
+  font-size: 14px;
+  padding: 0 12px;
+}
+.psy__cat__list li {
+  font-size: 15px;
+}
+.address {
+  padding: 60px 69px;
+}
+.contact-form-wrap {
+  padding: 75px 57px;
+}
+.footer--3 .footer.footer__titte__wrrap {
+    left: 0px;
+}
+.htc__try__solveleft {
+  padding: 97px 27px;
+}
+.htc__success__activation .owl-dots {
+  left: 47%;
+}
+
+/*Single Service*/
+
+.psy__ser__thumb img {
+  margin-right: 0;
+  min-width: auto;
+}
+.psy__single__service {
+  display: block;
+  text-align: left;
+}
+.psy__ser__details p {
+  padding: 0 20% 0 0;
+}
+.psy__ser__inner {
+  padding-top: 25px;
+}
+.psy__single__service.service--left .psy__ser__details {
+  margin-bottom: 35px;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve p {
+    padding-right: 0;
+}
+.bl__details h2 {
+  font-size: 18px;
+}
+.blog-right-sidebar .ht__blog__meta {
+  padding-right: 16px;
+}
+.psy__blog__details h2 {
+  font-size: 21px;
+}
+.title__line--2 {
+  font-size: 19px;
+}
+.exclusive__service .htc__service__wrap {
+  padding-left: 0px;
+}
+.blog__separator--left {
+  margin-left: auto;
+}
+.blog__separator--right {
+  margin-right: auto;
+}
+.slider__fixed--height {
+  height: 600px;
+}
+.team__details__content {
+  margin-left: 0;
+}
+.team__history {
+  padding-left: 0;
+}
+.single__his p {
+  padding-right: 24%;
+}
+
+
+
+
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+.slider__inner h1 {
+    font-size: 44px;
+}
+.slide{
+	background-position: center center !important;
+}
+.smt--70{
+    margin-top: 70px;
+}
+.smt--40{
+    margin-top: 40px;
+}
+.smb--20{
+    margin-bottom: 20px;
+}
+
+.mean-container a.meanmenu-reveal {
+    margin-top: -75px;
+}
+.mean-container .mean-bar {
+    min-height: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+.mean-container .mean-nav {
+    margin-top: 0;
+}
+.htc__support__wrap,
+.htc__service__wrap.service--4 {
+    display: block;
+}
+.ht__support__thumb.foo {
+    margin-bottom: 30px;
+}
+.htc__support__content {
+    padding-bottom: 150px;
+}
+.ht__sin__solve p {
+    padding-right: 32%;
+}
+.activation__time--1 .owl-nav div {
+  left: -7px;
+}
+.activation__time--1 .owl-nav div.owl-next {
+  right: -7px;
+}
+.gallery__hover__info {
+    bottom: 31px;
+    left: 23px;
+}
+.gallery__hover__info a::before {
+    bottom: -38px;
+    height: 96px;
+    left: -19px;
+}
+.gallery__hover__info a::after {
+    bottom: -23px;
+    left: -31px;
+    width: 204px;
+}
+.htc__appoinment__wrap {
+    padding: 0 37px;
+}
+.htc__appoinment__form {
+    padding: 85px 54px;
+}
+.section__title p {
+    padding: 0 19%;
+}
+.htc__therapy__title h2 {
+    font-size: 27px;
+    line-height: 39px;
+}
+.testimonial--1 .htc__testimonial__content {
+    padding-bottom: 210px;
+}
+.testimonial--1 .owl-stage-outer {
+    padding-bottom: 0px;
+    margin-bottom: -71px;
+}
+.testimonial--1.testimonial__activation--1 .owl-dots {
+    bottom: 183px;
+}
+.home-blog {
+    padding-top: 100px;
+}
+.ht__therapy__details h2 {
+    font-size: 18px;
+}
+.sticky__header.scroll-header .mean-container a.meanmenu-reveal {
+    margin-top: -54px;
+}
+.service {
+    padding: 50px 22px;
+}
+.service__details h2 {
+    font-size: 19px;
+    line-height: 29px;
+}
+.appoinment--4 .htc__app__box input {
+    width: 282px;
+}
+.appoinment--4 .htc__appoinment__form {
+    padding: 58px 38px;
+}
+.appoinment--4 .htc__visit__inner p {
+    padding-right: 45%;
+}
+.appoinment--4 .htc__appoinment__form {
+    right: 28px;
+}
+.video__image {
+    text-align: center;
+    margin-top: 60px;
+}
+.section__title__left p {
+    width: 59%;
+}
+.testimonial--2 .clint__info {
+    bottom: 29px;
+    left: -159px;
+}
+.testimonial--2 .testimonial__activation--1 .owl-dots {
+    bottom: 73px;
+}
+.ht__success__content p {
+    font-size: 16px;
+    line-height: 25px;
+}
+.ht__success__content h2 {
+    margin-bottom: 8px;
+}
+.htc__success__activation .owl-dots {
+    display: none;
+}
+
+.footer--2 .ht__twitter__feed {
+    margin-bottom: 9px;
+}
+.htc__service__position--img {
+    position: inherit;
+    padding-top: 54px;
+    padding-bottom: 95px;
+}
+.appoinment__style--3 .htc__appoinment__form {
+    bottom: 48px;
+}
+.appoinment__style--3 .htc__visit__inner {
+    padding: 58px 22% 130px 10%;
+}
+.testimonial--3 .testimonial {
+    padding-left: 46px;
+}
+.testimonial--3 .testimonial__activation--1 .owl-dots {
+    left: 62px;
+}
+.footer--3 .ht__twitter__feed {
+    margin-bottom: 9px;
+}
+.gallery__hover__info a::before {
+    height: 169px;
+}
+.team--2 .tm__social__icon {
+    justify-content: flex-start;
+}
+.team--2 .team__hover__action::before {
+    left: 11%;
+}
+.gallery--1 .gallery__hover__info {
+    bottom: 18px;
+    left: 7px;
+}
+.gallery--1 .gallery__hover__info a::before,
+.gallery--1 .gallery__hover__info a::after {
+  display: none;
+}
+.container-fluid .section__title p {
+    padding: 0 21%;
+}
+.subscribe--3 .news__input input {
+    width: auto;
+}
+.subscribe--3 .htc__subscribe__inner {
+    padding: 0 30px;
+}
+.service--3 .service {
+  text-align: center;
+}
+.service--3 .service__details p {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.exclusive__service--inner {
+  display: block;
+}
+.htc__exclu__service {
+  text-align: center;
+}
+.ht__exclu__details p {
+  padding: 0 10%;
+}
+.htc__exclu__service h2 {
+  font-size: 31px;
+  line-height: 44px;
+  margin-top: 8px;
+}
+.exclusive__service .htc__service__wrap {
+  margin-top: 60px;
+}
+.service__bg .section__title p {
+  padding: 0 18%;
+}
+.contact-form-wrap {
+  padding: 75px 54px;
+}
+.home--try {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.footer--3 .footer.footer__titte__wrrap {
+    left: 0px;
+}
+/*Single Service*/
+
+.psy__ser__thumb img {
+  margin-right: 0;
+  min-width: auto;
+}
+.psy__single__service {
+  display: block;
+  text-align: left;
+}
+.psy__ser__details p {
+  padding: 0 20% 0 0;
+}
+.psy__ser__inner {
+  padding-top: 25px;
+}
+.psy__single__service.service--left .psy__ser__details {
+  margin-bottom: 35px;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve {
+    margin-left: 0;
+}
+.htc__solve__items {
+    padding: 141px 0 141px 115px;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve p {
+    padding-right: 17%;
+}
+.single-therapy .col-lg-6 + .col-lg-6 {
+    padding-left: 0;
+}
+.video__wrap {
+  justify-content: center;
+}
+.service.service__align--center {
+  left: 0px;
+}
+.service.service__align--right {
+  right: 0px;
+}
+.ht__sin__solve p {
+  padding-right: 16%;
+}
+.about__service .htc__service__wrap {
+  padding: 100px 0 70px;
+}
+.about__service .service {
+  padding: 0 0 30px;
+}
+.exclusive__service .htc__service__wrap {
+  padding-left: 0px;
+}
+.blog__separator--left {
+  margin-left: auto;
+}
+.blog__separator--right {
+  margin-right: auto;
+}
+.bl__details h2 {
+  font-size: 22px;
+}
+.sction__title--2 h2 {
+  font-size: 32px;
+}
+.slider__fixed--height {
+  height: 500px;
+}
+
+.row.team__align__center {
+  display: block;
+}
+.team__details__content {
+  margin-left: 0;
+  margin-top: 32px;
+  padding-right: 14%;
+}
+.team__history {
+  padding-left: 0;
+  padding-top: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+
+
+
+/* Large Mobile :767px. */
+@media (max-width: 767px) {
+
+.container {width:300px}
+
+.xmt--70{
+    margin-top: 70px;
+}
+.xmt--40{
+    margin-top: 40px;
+}
+.slider__inner h1,
+.slider--2 .slider__inner h1,
+.slider--3 .slider__inner h1 {
+    font-size: 35px;
+    line-height: 40px;
+}
+.slide{
+	background-position: center center !important;
+}
+.slider__fixed--height {
+    height: 600px;
+}
+.mean-container a.meanmenu-reveal {
+    margin-top: -71px;
+}
+.mean-container .mean-bar {
+    min-height: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+.mean-container .mean-nav {
+    margin-top: 0;
+}
+
+.ht__header__top__right {
+    float: none;
+    text-align: center;
+}
+.footer--3 .footer.footer__titte__wrrap {
+    left: 0px;
+}
+
+.ht__header__top__left {
+    text-align: center;
+    margin-bottom: 3px;
+}
+.htc__try__solveleft {
+  margin-right: 0;
+}
+.htc__support__wrap,
+.htc__solve__content,
+.htc__app__box__inner,
+.psy__therapy__wrap,
+.testimonial--2 .testimonial,
+.ht__single__success,
+.service--2 .htc__service__list {
+    display: block;
+}
+.htc__app__box {
+    width: 100%;
+}
+.section__title p ,
+.htc__appoinment__inner p,
+.htc__therapy__title p,
+.ht__therapy__details p{
+    font-size: 14px;
+}
+.htc__appoinment__wrap,
+.container-fluid .section__title p {
+    padding: 0;
+}
+.team--2 .tm__social__icon {
+    justify-content: flex-start;
+}
+.video__wrap {
+  justify-content: center;
+}
+
+
+.section__title h2 {
+    font-size: 32px;
+}
+
+.htc__therapy__title {
+    padding-right: 0;
+    padding-bottom: 50px;
+}
+.htc__support__content {
+    margin-top: 40px;
+    padding-bottom: 150px;
+}
+.htc__spt__dai p {
+    font-size: 22px;
+}
+.htc__try__details {
+    padding: 40px 28px 40px 28px;
+}
+.htc__solve__items {
+    padding: 100px 50px;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve {
+    margin-left: 0;
+    margin-top: 70px;
+}
+.ht__sin__solve p,
+.htc__visit__inner h2{
+    padding-right: 0%;
+}
+.section__title p ,
+.htc__appoinment__inner p{
+    padding: 0;
+    font-size: 14px;
+}
+.activation__time--1 .owl-nav div {
+  left: -7px;
+}
+.activation__time--1 .owl-nav div.owl-next {
+  right: -7px;
+}
+
+.htc__appoinment__form {
+    padding: 50px 40px;
+}
+.htc__app__box__inner .htc__app__box + .htc__app__box {
+    margin-top: 23px;
+}
+.testimonial__activation--1 {
+    padding-bottom: 177px;
+    padding-top: 56px;
+}
+.testimonial--1 .owl-stage-outer {
+    padding-bottom: 0;
+}
+.testimonial__clint {
+    top: 0;
+}
+.clint__info {
+    bottom: 0;
+    padding-top: 26px;
+    left: 0;
+    position: inherit;
+}
+.clint__info h4,
+.clint__info h6 {
+    color: #fff;
+}
+.testimonial--1.testimonial__activation--1 .owl-dots {
+    bottom: 138px;
+    left: 12px;
+}
+.htc__testimonial__content {
+    height: auto;
+    padding-bottom: 47px;
+}
+.home-blog{
+    padding-top: 40px;
+}
+.htc__blog__inner {
+    padding: 27px 10px 20px;
+}
+.ht__blog__sub h2 {
+    font-size: 17px;
+}
+.news__input input {
+    width: 92%;
+}
+.subscribe__btn input {
+    right: -50px;
+}
+.htc__subscribe__inner h4 {
+    font-size: 13px;
+}
+.copyright__content {
+    display: block;
+    text-align: center;
+}
+.social__icon {
+    justify-content: center;
+    margin-top: 9px;
+}
+.social__icon {
+    display: flex;
+    margin-left: -16px;
+    margin-right: -16px;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.scroll-header .mean-container a.meanmenu-reveal {
+    margin-top: -64px;
+}
+.appoinment--4 .htc__appoinment__form {
+    position: inherit;
+}
+.service__details h2 {
+    font-size: 18px;
+}
+.appoinment--4 .htc__app__box input {
+    width: 100%;
+}
+.appoinment--4 .htc__appoinment__form {
+    bottom: 0;
+    height: auto;
+    right: 0;
+    top: 0;
+}
+.appoinment--4 .htc__appoinment__form {
+    padding: 70px 38px;
+}
+.section__title__left p {
+    width: 100%;
+    font-size: 14px;
+}
+.testimonial--2 .clint__info {
+    bottom: 0;
+    left: -30px;
+}
+.ht__success__inner {
+    padding-left: 31px;
+    padding-right: 5.5%;
+    padding-top: 28px;
+    padding-bottom: 99px;
+}
+.htc__success__activation .owl-dots {
+    left: 26px;
+}
+.ht__bradcaump__wrap {
+    padding: 86px 0;
+    text-align: center;
+}
+.testimonial--2 .htc__testimonial__content {
+    padding-bottom: 40px;
+}
+
+.testimonial--2 .testimonial__activation--1 {
+    padding-bottom: 113px;
+}
+.testimonial--2 .testimonial__activation--1 .owl-dots {
+    bottom: 60px;
+    left: 25px;
+}
+.service--3 .ht__service__content {
+    display: block;
+    text-align: center;
+}
+.service--3 .service__details p {
+    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.service--3 .ht__service__content .service + .service {
+    margin-top: 53px;
+}
+.bg__shape {
+    display: none;
+}
+.appoinment__style--3 .htc__appoinment__form {
+    bottom: -59px;
+    padding: 56px 29px;
+}
+.appoinment__style--3 .htc__visit__inner {
+    padding: 110px 0% 110px 10%;
+}
+.htc__service__position--img {
+    bottom: 0;
+    left: 0;
+    padding-top: 50px;
+    position: inherit;
+}
+
+.service--2.service--4 .htc__service__list ,
+.htc__service__wrap.service--4{
+    display: block;
+}
+.service--4 .htc__service__list .service + .service {
+    margin-left: 0;
+    margin-top: 30px;
+}
+.service--4 .service {
+    padding: 28px 30px;
+}
+.testimonial--3 .testimonial {
+    padding-left: 0;
+}
+.testimonial--3 .htc__testimonial__content--2 {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.testimonial--3 .testimonial__activation--1 .owl-dots {
+    bottom: 74px;
+    left: 7px;
+}
+.testimonial--3 .testimonial__activation--1 {
+    padding-bottom: 122px;
+    padding-top: 56px;
+}
+.subscribe--3 .htc__subscribe__inner {
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+.subscribe--3 .ht__subscribe__text {
+    padding-right: 0;
+    padding-bottom: 26px;
+}
+.subscribe--3 .news__input input {
+    width: auto;
+}
+.subscribe--3 .ht__subscribe__text::before {
+    display: none;
+}
+.subscribe--3 .subscribe__btn {
+    right: 33px;
+}
+.gallery__hover__info a::before {
+  height: 141px;
+}
+.gallery__hover__info a::after {
+  width: 241px;
+}
+.htc__support__inner h4 {
+    margin-bottom: 17px;
+}
+.htc__support__inner h2 {
+  font-size: 31px;
+  margin-bottom: 20px;
+}
+.exclusive__service--inner {
+  display: block;
+}
+.htc__exclu__service {
+  text-align: center;
+}
+.ht__exclu__details p {
+  padding: 0 10%;
+}
+.htc__exclu__service h2 {
+  font-size: 31px;
+  line-height: 44px;
+  margin-top: 8px;
+}
+.exclusive__service .htc__service__wrap {
+  margin-top: 60px;
+}
+.service__bg .section__title p {
+  padding: 0 10%;
+}
+.bl__details h2 {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+.bl__details {
+  padding: 35px 14px;
+}
+.bl__details .ht__blog__meta li + li {
+  margin-left: 30px;
+}
+.blog-one-column--2 .bl__details {
+    padding: 35px 24px 35px 34px;
+}
+.ht__blog__meta {
+    padding-right: 25px;
+}
+.htc__contact__form__wrap,
+.slider--3 .slider__inner h1 {
+  padding: 0;
+}
+.contact-form-wrap {
+  padding: 75px 25px;
+}
+.contact-box.name_email .contact-box {
+  width: 100%;
+}
+.contact-box.name_email {
+  display: block;
+}
+.contact-box.name_email .contact-box + .contact-box {
+  margin-top: 26px;
+}
+.contact-box.name_email {
+  margin-left: 0;
+  margin-right: 0;
+}
+.contact-box.name_email .contact-box {
+  margin: 0;
+}
+.address {
+  padding: 60px 59px;
+}
+.home--try {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+.service--2 .htc__service__list .service + .service {
+  margin-top: 30px;
+}
+.service--2 .video__wrap {
+  position: relative;
+  margin-top: 66px;
+}
+.footer--3 .twit__details p {
+    padding-right: 5%;
+}
+/*Single Service*/
+
+.psy__ser__thumb img {
+  margin-right: 0;
+  min-width: auto;
+}
+.psy__single__service {
+  display: block;
+  text-align: left;
+}
+.psy__ser__details p {
+  padding: 0 8% 0 0;
+}
+.psy__ser__inner {
+  padding-top: 25px;
+}
+.psy__single__service.service--left .psy__ser__details {
+  margin-bottom: 35px;
+}
+.psy__ser__inner h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.htc__solve__content .ht__sin__solve + .ht__sin__solve p {
+    padding-right: 0;
+}
+.service.service__align--center {
+  left: 0px;
+}
+.service.service__align--right {
+  right: 0px;
+}
+.testimonial--2 .testimonial__activation--1 {
+  margin-top: 0;
+}
+.video__inner {
+  padding-left: 28px;
+}
+.bradcaump__title h2 {
+  font-size: 34px;
+}
+.psy__blog__details h2 {
+  font-size: 19px;
+  line-height: 30px;
+}
+.psy__bl__dtl blockquote {
+  margin: 50px 0;
+  padding: 40px 32px 40px 12px;
+}
+.psy__bl__dtl blockquote::before {
+  left: 7px;
+  top: 22px;
+}
+.psy__blog__meta li + li {
+  margin-left: 33px;
+}
+.comment__info span + span {
+  padding-left: 0;
+}
+.comment,
+.comment__form{
+  display: block;
+}
+.comment__inner {
+  padding: 20px 13px 20px 17px;
+}
+.comment.reply {
+  margin-left: 0;
+}
+.comment__form {
+  margin-left: 0;
+  margin-right: 0;
+}
+.comment__box {
+  margin: 0;
+  width: 100%;
+}
+.comment__form .comment__box + .comment__box {
+  margin-top: 23px;
+}
+.comment__thumb {
+  min-width: auto;
+}
+.exclusive__service .htc__service__wrap {
+  padding-left: 0px;
+}
+.blog__separator--left {
+  margin-left: auto;
+}
+.blog__separator--right {
+  margin-right: auto;
+}
+.ui-datepicker {
+  width: 259px;
+}
+.row.team__align__center {
+  display: block;
+}
+.team__details__content {
+  margin-left: 0;
+  margin-top: 32px;
+  padding-right: 14%;
+}
+.team__history {
+  padding-left: 0;
+  padding-top: 23px;
+}
+.team__contact__info p a,
+.team__contact__info p {
+  font-size: 14px;
+}
+.single__his p,
+.team__expre__details p,
+.team__details__content {
+  padding-right: 0;
+}
+.team__progress__bar {
+  padding-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* Medium mobile :577px. */
+@media (min-width: 577px) and (max-width: 767px) {
+  
+.container {width:540px}
+
+
+.slider__inner h1 {
+    font-size: 35px;
+    line-height: 40px;
+}
+.slide{
+	background-position: center center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+.container {width:100%}
+
+.htc__try__solveleft {
+    padding: 43px 30px;
+}
+.service {
+    padding: 50px 35px;
+}
+.team--2 .team__hover__action::before {
+  left: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 

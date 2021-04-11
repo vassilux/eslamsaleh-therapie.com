@@ -1,0 +1,32 @@
+{{ $contact := .Site.Params.contact }}
+{{ "<!-- header HTC  -->" | safeHTML }}
+<div class="htc__header__top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                <div class="ht__header__top__left">
+                    {{ with $contact.address }}
+                        <span class="section-subheading text-muted">Adresse : {{ . | markdownify }}</span>
+                    {{ end }}
+                </div>
+            </div>          
+            
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-10">
+                <div class="ht__header__top__right">
+                    {{ with $contact.phone }}
+                        <span class="section-subheading text-muted">Téléphone : {{ . | markdownify }}<span>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
+                <div class="ht__header__top__right">
+                    {{ range .Site.Params.footer.social }}
+                    <span class="section-subheading text-muted"><a href="{{ .link }}" target="_blank" title="{{ .title }}"><i class="fa {{ .icon }}"></i> </a></span>
+                    {{ end }}  
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

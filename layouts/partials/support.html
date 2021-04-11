@@ -1,0 +1,66 @@
+{{ "<!-- Support -->" | safeHTML }}
+{{ $contact := .Site.Params.contact }}
+<section class="htc__support__area bg__white">
+  <div class="container">
+      <div class="row">
+          <div class="htc__support__wrap clearfix">
+              <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+                  <div class="ht__support__thumb foo" >
+                      <img src="/images/about/1.jpg" style ="" alt="Eslam ">
+                  </div>
+              </div>
+              <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
+                  <div class="htc__support__content">
+                      <div class="htc__support__inner">
+                          <h4 class="text--theme">Sur un chemin lumineux vers soi</h4>
+                          <h2 class="text--theme"><span style="color:#4b0868">Eslam Saleh</span><!--Soutien psychologique ?--></h2>
+                          <h3 style="color:#4b0868">                             
+                            <span class="cholist" style="color:#4b0868">
+                                Médium thérapeute en thérapie brève intuitive et hypnose
+                            </span>
+                            <br>                            
+                            <span class="cholist"  style="color:#4b0868">
+                                Énergeticienne en reiki / magnétisme 
+                            </span></h3>  
+                            <h5 class="text--theme">DE QUOI AVEZ VOUS BESOIN POUR VOUS SENTIR EN ÉQUILIBRE Aujourd’hui ?</h5>
+                            <br>
+                            <h5 class="text--theme">QU’EST CE QUI VOUS EMPÊCHE D’ATTEINDRE VOTRE OBJECTIF ?</h5>
+                            <br>
+                            <div class="htc__support__details">
+                                
+                              <p>
+                                Ce sont des questions importantes, simples mais difficiles à la fois, car on arrive rarement à les formuler clairement face à soi-même.
+                                <br>
+                                D'ailleurs ce qui est tout à fait normal car nous avons une relation particulière avec ce soi.
+                                <br>
+                                Être thérapeute c’est aussi savoir vous poser les bonnes questions. Parfois il suffit d’une seule question juste pour Avancer vers là où l'on aimerait être.
+                                <br>
+                                Je vois mon rôle, aussi petit et précieux soit-il, comme une lampe torche, qui mettra en lumière une ou plusieurs zones d'ombres. Zones qui étaient jusqu’à présent inaccessibles, et les raisons sont multiples..
+                                <br>
+                                L’inconscient est un labyrinthe intérieur, un champ de possibilités fascinant. Si l'on ne connaît pas le chemin de  de ce champ nous avons besoin d’une compagnie, d’un guide avec qui le voyage sera plus agréable et sécurisant.
+                                <br>
+                                Et quand je mets en service non seulement Le travail thérapeutique mais aussi mes capacités intuitives médiumniques me permettront d’avoir un regard plus complet sur votre personne, la situation, le parcours de l’âme, la charge karmique ... J'appelle cela la thérapie brève intuitive.
+                              </p>
+                              <p>
+                                À l'aide de différents outils comme l’hypnose Ericksonienne, PNL, ATA, CL, le travail émotionnel énergétique, magnétisme, médiumnité  je pourrais créer un accompagnement efficace qui s’adapte au besoin de chaque personne, tout en respectant son authenticité et ses croyances.
+                                <br>
+                                Pour créer un accompagnement efficace qui s’adapte au besoin de chaque personne.
+                               <br>
+                               Nous sommes tous différents et nous nous complétons, Pour cela nous devrons d’abord trouver notre complétude intérieur authentique pour une meilleure vie.
+                               <br>
+                              </p>
+                          </div>
+                          {{ with $contact.phone }}                                  
+                                  <div class="htc__spt__dai">
+                                    <p class="text--theme">Pour plus d'information n'hésitez pas à me contacter  </p>
+                                    <p class="text--theme">au <a href="tel:{{ . | markdownify }}"> {{ . | markdownify }}</a></p>
+                                </div>
+                           {{ end }} 
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

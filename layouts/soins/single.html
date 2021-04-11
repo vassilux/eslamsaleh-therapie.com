@@ -1,0 +1,77 @@
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ partial "head.html" . }}
+<body id="page-top" class="index">
+
+<div class="wrapper">
+    <!-- Start Header Style -->
+    <header class="htc__header">
+        <!-- Start Header Top Area -->
+        {{ partial "header.html" . }}
+        
+        <!-- End Header Top Area -->
+        <!-- Start Mainmenu Area -->
+        {{ partial "menu.html" . }}
+        <!-- End Mainmenu Area -->
+        <!-- End Mainmenu Area -->
+    </header>
+    <!-- End Header Style -->   
+
+    {{ "<!-- Support -->" | safeHTML }}
+{{ $contact := .Site.Params.contact }}
+<section class="htc__support__area bg__white">
+  <div class="container">
+      <div class="row">
+          <div class="htc__support__wrap clearfix">
+              <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+                  <div class="ht__support__thumb foo" >
+                      <img src="{{ .Params.image }} " style ="" alt="{{ .Params.shortTitle}} ">
+                  </div>
+              </div>
+              <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
+                  <div class="htc__support__content">
+                      <div class="htc__support__inner">
+                          <h4 class="text--theme">Sur un chemin lumineux vers soi</h4>
+                          <h2 class="text--theme"><span style="color:#4b0868">Eslam Saleh</span><!--Soutien psychologique ?--></h2>
+                          <h3 style="color:#4b0868">                             
+                            <span class="cholist" style="color:#4b0868">
+                                Médium thérapeute en thérapie brève intuitive et hypnose
+                            </span>
+                            <br>                            
+                            <span class="cholist"  style="color:#4b0868">
+                                Énergeticienne en reiki / magnétisme 
+                            </span></h3>  
+                            
+                            <div class="htc__support__details">
+                                {{ .Content }}                              
+                          </div>
+                          {{ with $contact.phone }}                                  
+                                  <div class="htc__spt__dai">
+                                    <p class="text--theme">Pour plus d'information n'hésitez pas à me contacter  </p>
+                                    <p class="text--theme">au <a href="tel:{{ . | markdownify }}"> {{ . | markdownify }}</a></p>
+                                </div>
+                           {{ end }} 
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+{{ if .Site.Params.soins.enable }}
+    {{ partial "soins.html" . }}
+{{ end }}
+
+    <!-- Start Footer Area -->
+    {{ partial "footer.html" . }}
+    <!-- End Footer Area -->
+</div>
+<!-- Body main wrapper end -->
+
+<!-- Placed js at the end of the document so the pages load faster -->
+{{ partial "js.html" . }}
+
+</body>
+
+</html>

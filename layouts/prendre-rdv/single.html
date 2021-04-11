@@ -1,0 +1,43 @@
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ partial "head.html" . }}
+<body id="page-top" class="index">
+
+<div class="wrapper">
+    <!-- Start Header Style -->
+    <header class="htc__header">
+        <!-- Start Header Top Area -->
+        {{ partial "header.html" . }}
+        
+        <!-- End Header Top Area -->
+        <!-- Start Mainmenu Area -->
+        {{ partial "menu.html" . }}
+        <!-- End Mainmenu Area -->
+        <!-- End Mainmenu Area -->
+    </header>
+    <!-- End Header Style -->       
+    
+    <!-- Start Appoinment Area -->
+    {{ if .Site.Params.appoinment.enable }}
+    {{ partial "appoinment.html" . }}
+    {{ end }}
+
+    <!-- End Appoinment Area -->
+    
+    <!-- Start Try Solve Area -->
+    {{ if .Site.Params.solve.enable }}
+    {{ partial "solve.html" . }}
+    {{ end }}
+    <!-- End Try Solve Area -->
+
+    <!-- Start Footer Area -->
+    {{ partial "footer.html" . }}
+    <!-- End Footer Area -->
+</div>
+<!-- Body main wrapper end -->
+
+<!-- Placed js at the end of the document so the pages load faster -->
+{{ partial "js.html" . }}
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ partial "head.html" . }}
+<body id="page-top" class="index">
+
+<div class="wrapper">
+    <!-- Start Header Style -->
+    <header class="htc__header">
+        <!-- Start Header Top Area -->
+        {{ partial "header.html" . }}
+        
+        <!-- End Header Top Area -->
+        <!-- Start Mainmenu Area -->
+        {{ partial "menu.html" . }}
+        <!-- End Mainmenu Area -->
+        <!-- End Mainmenu Area -->
+    </header>
+    <!-- End Header Style -->   
+
+    <!-- Start Contact Area -->
+    {{ $contact := .Site.Params.contact }}
+    <section class="htc__contact__area bg__white pb--70 pt--80">
+        <div class="container">
+            <div class="row">
+                <div class="contact__addres__wrapper clearfix">
+                    <!-- Start Single Addrss -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                        <div class="address">
+                            <div class="address__icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            
+                            <div class="address__details">
+                                {{ with $contact.address }}
+                                <p>{{ . | markdownify }}</p>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Addrss -->
+                    <!-- Start Single Addrss -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 xmt--40">
+                        <div class="address">
+                            <div class="address__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="address__details">
+                                {{ with $contact.phone }}
+                                <p>{{ . | markdownify }}</p>
+                                {{ end }}                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Addrss -->
+                    <!-- Start Single Addrss -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 smt--40 xmt--40">
+                        <div class="address">
+                            <div class="address__icon">
+                                <i class="fa fa-globe"></i>
+                            </div>
+                            <div class="address__details">
+                                <div class="address__details">
+                                    {{ with $contact.email }}
+                                    <p>{{ . | markdownify }}</p>
+                                    {{ end }}                                
+                                </div>
+                                                            
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Addrss -->
+                </div>
+            </div>
+        </div>
+     
+        <!-- Start Conatact Form -->
+        <div class="psy__contact__form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="htc__contact__form__wrap">
+                        <div class="contact-form-wrap">
+                            <h2 class="ct__title text--theme">Send us a message</h2>
+                            <form id="contact-form" action="https://us-central1-eslamsaleh-8c5a9.cloudfunctions.net/api/contactmail" method="post">
+                                <div class="single-contact-form name">
+                                    <div class="contact-box name_email">
+                                        <div class="contact-box">
+                                            <span>Votre nom*</span>
+                                            <input type="text" name="name" required>
+                                        </div>
+                                        <div class="contact-box">
+                                            <span>Téléphone *</span>
+                                            <input type="tel" name="phone" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-contact-form">
+                                    <div class="contact-box subject">
+                                        <span>Votre e-mail*</span>
+                                        <input type="email" name="email" required>
+                                    </div>
+                                </div>
+                                <div class="single-contact-form">
+                                    <div class="contact-box message">
+                                        <span>Votre message*</span>
+                                        <textarea name="message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="contact-btn">
+                                    <button type="submit" class="htc__btn">Envoyer</button>                                    
+                                </div>
+                                <div class="single-contact-form">                                   
+                                    <span>*Obligatoire</span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="form-output">
+                            <p class="form-messege"></p>                            
+                        </div>                            
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Conatact Form -->
+    </section>
+    <!-- End Contact Area -->
+
+
+    
+    
+    <!-- Start Try Solve Area -->
+    {{ if .Site.Params.solve.enable }}
+    {{ partial "solve.html" . }}
+    {{ end }}
+
+    <!-- Start Footer Area -->
+    {{ partial "footer.html" . }}
+    <!-- End Footer Area -->
+</div>
+<!-- Body main wrapper end -->
+
+<!-- Placed js at the end of the document so the pages load faster -->
+{{ partial "js.html" . }}
+
+</body>
+
+</html>

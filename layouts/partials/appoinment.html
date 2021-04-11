@@ -1,0 +1,77 @@
+{{ "<!-- Appoinment -->" | safeHTML }}
+{{ $appoinment := .Site.Params.appoinment }}
+<section class="htc__appoinment__area">
+    <div class="htc__appoinment__top pt--90 pb--190"
+        style="background-attachment: scroll; background-color: rgba(0, 0, 0, 0); background-image: url('/images/bg/1.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover; box-sizing: border-box;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="htc__appoinment__inner">
+                        {{ with $appoinment.title }}
+                        <h2>{{ . | markdownify }}</h2>
+                        {{ end }}
+                        {{ with $appoinment.description }}
+                        <p>{{ . | markdownify }}</p>
+                        {{ end }}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Appoinment Form -->
+    <div class="htc__appoinment__container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="htc__appoinment__wrap">
+                        <form id="contact-form"
+                            action="https://us-central1-eslamsaleh-8c5a9.cloudfunctions.net/api/appoinmentmail" method="post">
+                        
+                        <div class="htc__appoinment__form bg__gray">
+                            <div class="htc__app__box__inner">
+                                <div class="htc__app__box">
+                                    <span>Votre nom*</span>
+                                    <input type="text" name="name" required>
+                                </div>
+                                <div class="htc__app__box">
+                                    <span>Votre e-mail*</span>
+                                    <input type="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="htc__app__box__inner">
+                                <div class="htc__app__box">
+                                    <span>Objet*</span>
+                                    <input type="text" name="subject" required>
+                                </div>
+                                <div class="htc__app__box psy__calendar">
+                                    <span>Date*</span>
+                                    <input class="date__dropdown" type="text" id="datepicker" name="date">
+                                </div>
+                            </div>
+                            <div class="htc__app__box__inner message">
+                                <div class="htc__app__box message">
+                                    <span>Message*</span>
+                                    <textarea name="message" required></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="ht__appoin__btn">
+                                <button type="submit" class="htc__btn">Envoyer</button>                                    
+                            </div>
+
+                            <div class="single-contact-form">
+                                <span>*Obligatoire</span>
+                            </div>
+                            <div class="form-output">
+                                <p class="form-messege"></p>                            
+                            </div>
+                        </div>
+                        
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
